@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794690341.9811325,
+  "generated_at": 1794691193.413896,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -16,19 +16,19 @@
   },
   "account": {
     "starting_eur": 100.0,
-    "equity_eur": 38.079871,
-    "cash_eur": 38.079871,
-    "realised_eur": -21.920129,
+    "equity_eur": 36.608352,
+    "cash_eur": 36.608352,
+    "realised_eur": -23.391648,
     "owner_deposits_eur": 0.0,
-    "roi_pct": -21.920129,
+    "roi_pct": -23.391648,
     "open": 2,
-    "closed": 82,
+    "closed": 85,
     "wins": 27,
-    "losses": 55,
-    "win_rate": 0.32926829268292684,
-    "mean_hold_s": 75.18368365706468,
-    "fees_eur": 11.589327,
-    "slippage_eur": 19.135476,
+    "losses": 58,
+    "win_rate": 0.3176470588235294,
+    "mean_hold_s": 74.12767327813542,
+    "fees_eur": 12.00553,
+    "slippage_eur": 19.905351,
     "best_trade_eur": 2.023529,
     "worst_trade_eur": -4.311305
   },
@@ -36,10 +36,10 @@
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -41.169284,
-    "closed_trades": 20,
+    "net_eur": -42.640803,
+    "closed_trades": 23,
     "wins": 8,
-    "losses": 12,
+    "losses": 15,
     "deposits_eur": 0.0
   },
   "positions": [
@@ -49,13 +49,13 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 7152.604068279266,
+      "held_s": 8004.036831855774,
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794690248.7700467,
-        "retry_after": 1794690548.7700467
+        "checked_at": 1794691150.3307288,
+        "retry_after": 1794691450.3307288
       },
       "momentum": {
         "return_60s_pct": null,
@@ -72,13 +72,13 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 1141.024789571762,
+      "held_s": 1992.4575531482697,
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794690248.7700467,
-        "retry_after": 1794690548.7700467
+        "checked_at": 1794691150.3307288,
+        "retry_after": 1794691450.3307288
       },
       "momentum": {
         "return_60s_pct": null,
@@ -91,6 +91,27 @@
     }
   ],
   "recent_trades": [
+    {
+      "ts": 1794691155.388021,
+      "symbol": "greg",
+      "net_eur": -0.429862,
+      "exit_reason": "adverse stop / momentum failure",
+      "held_s": 31.506598711013794
+    },
+    {
+      "ts": 1794690982.9334497,
+      "symbol": "greg",
+      "net_eur": -0.360941,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 91.78089261054993
+    },
+    {
+      "ts": 1794690764.1872094,
+      "symbol": "greg",
+      "net_eur": -0.680716,
+      "exit_reason": "adverse stop / momentum failure",
+      "held_s": 12.50267744064331
+    },
     {
       "ts": 1794690200.66366,
       "symbol": "SLIDES",
@@ -209,27 +230,6 @@
       "net_eur": 0.187729,
       "exit_reason": "trailing reversal from observed peak",
       "held_s": 321.0376145839691
-    },
-    {
-      "ts": 1794681694.5060928,
-      "symbol": "Chunkee",
-      "net_eur": -1.180054,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 47.54543614387512
-    },
-    {
-      "ts": 1794681688.2017605,
-      "symbol": "aura ",
-      "net_eur": 1.843957,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 63.136319160461426
-    },
-    {
-      "ts": 1794681549.852491,
-      "symbol": "SHIT",
-      "net_eur": -0.392421,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 13.368004083633423
     }
   ],
   "equity": [
@@ -1100,44 +1100,99 @@
     {
       "ts": 1794690300.4736679,
       "equity_eur": 38.0799
+    },
+    {
+      "ts": 1794690421.0975034,
+      "equity_eur": 38.0799
+    },
+    {
+      "ts": 1794690540.4202988,
+      "equity_eur": 38.0799
+    },
+    {
+      "ts": 1794690660.3609178,
+      "equity_eur": 38.0799
+    },
+    {
+      "ts": 1794690780.4122415,
+      "equity_eur": 37.3992
+    },
+    {
+      "ts": 1794690900.994517,
+      "equity_eur": 36.8553
+    },
+    {
+      "ts": 1794691020.7880197,
+      "equity_eur": 37.0382
+    },
+    {
+      "ts": 1794691141.634675,
+      "equity_eur": 36.6084
     }
   ],
   "radar": [
     {
-      "symbol": "MORNING",
-      "price_usd": 4.896e-05,
-      "liquidity_usd": 51891.84,
-      "volume_h1_usd": 172975.96,
-      "buy_share": 0.8148,
-      "price_change_m5_pct": 22.66,
-      "price_change_h1_pct": 258.0
+      "symbol": "慌啥子嘛",
+      "price_usd": 3.28e-05,
+      "liquidity_usd": 44157.94,
+      "volume_h1_usd": 104865.35,
+      "buy_share": 0.8662,
+      "price_change_m5_pct": 21.23,
+      "price_change_h1_pct": 118.0
     },
     {
       "symbol": "GANG",
-      "price_usd": 4.718e-05,
-      "liquidity_usd": 51712.74,
-      "volume_h1_usd": 175215.25,
-      "buy_share": 0.8261,
-      "price_change_m5_pct": 20.15,
-      "price_change_h1_pct": 211.0
+      "price_usd": 6.628e-05,
+      "liquidity_usd": 61051.85,
+      "volume_h1_usd": 243110.36,
+      "buy_share": 0.793,
+      "price_change_m5_pct": 16.05,
+      "price_change_h1_pct": 337.0
     },
     {
-      "symbol": "TRENCHER",
-      "price_usd": 2.238e-05,
-      "liquidity_usd": 35689.66,
-      "volume_h1_usd": 40949.61,
-      "buy_share": 0.8242,
-      "price_change_m5_pct": 13.28,
-      "price_change_h1_pct": 55.97
+      "symbol": "bill",
+      "price_usd": 0.0001863,
+      "liquidity_usd": 43449.88,
+      "volume_h1_usd": 552260.18,
+      "buy_share": 0.5952,
+      "price_change_m5_pct": 18.41,
+      "price_change_h1_pct": -21.82
     },
     {
-      "symbol": "BTC",
-      "price_usd": 3.385e-05,
-      "liquidity_usd": 13583.73,
-      "volume_h1_usd": 8607.03,
-      "buy_share": 0.7661,
-      "price_change_m5_pct": 25.19,
-      "price_change_h1_pct": 136.0
+      "symbol": "Democat",
+      "price_usd": 2.565e-05,
+      "liquidity_usd": 37988.18,
+      "volume_h1_usd": 107188.95,
+      "buy_share": 0.8618,
+      "price_change_m5_pct": -24.76,
+      "price_change_h1_pct": 80.27
+    },
+    {
+      "symbol": "bill",
+      "price_usd": 5.376e-07,
+      "liquidity_usd": 95713.11,
+      "volume_h1_usd": 376097.36,
+      "buy_share": 0.7552,
+      "price_change_m5_pct": 2.31,
+      "price_change_h1_pct": 19.71
+    },
+    {
+      "symbol": "mihao",
+      "price_usd": 3.979e-05,
+      "liquidity_usd": 30659.11,
+      "volume_h1_usd": 222804.74,
+      "buy_share": 0.6153,
+      "price_change_m5_pct": 18.77,
+      "price_change_h1_pct": 587.0
+    },
+    {
+      "symbol": "MORNING",
+      "price_usd": 2e-12,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 172975.96,
+      "buy_share": 0.8145,
+      "price_change_m5_pct": 0.0,
+      "price_change_h1_pct": -100.0
     },
     {
       "symbol": "Anne",
@@ -1149,15 +1204,6 @@
       "price_change_h1_pct": 376.0
     },
     {
-      "symbol": "BLGvsGEN",
-      "price_usd": 2.156e-05,
-      "liquidity_usd": 35016.56,
-      "volume_h1_usd": 37463.56,
-      "buy_share": 0.8267,
-      "price_change_m5_pct": 8.14,
-      "price_change_h1_pct": 47.99
-    },
-    {
       "symbol": "慌啥子嘛",
       "price_usd": 1.959e-05,
       "liquidity_usd": 0.0,
@@ -1167,34 +1213,37 @@
       "price_change_h1_pct": 30.05
     },
     {
-      "symbol": "bill",
-      "price_usd": 5.253e-07,
-      "liquidity_usd": 94827.56,
-      "volume_h1_usd": 196691.27,
-      "buy_share": 0.7481,
-      "price_change_m5_pct": 0.2,
-      "price_change_h1_pct": 16.97
-    },
-    {
-      "symbol": "Democat",
-      "price_usd": 1.703e-05,
-      "liquidity_usd": 31005.34,
-      "volume_h1_usd": 18676.07,
-      "buy_share": 0.871,
-      "price_change_m5_pct": 4.28,
-      "price_change_h1_pct": 19.73
-    },
-    {
-      "symbol": "慌啥子嘛",
-      "price_usd": 1.713e-05,
-      "liquidity_usd": 31982.17,
-      "volume_h1_usd": 36797.36,
-      "buy_share": 0.8631,
-      "price_change_m5_pct": -2.89,
-      "price_change_h1_pct": 14.1
+      "symbol": "TRENCHER",
+      "price_usd": 2.816e-05,
+      "liquidity_usd": 39461.52,
+      "volume_h1_usd": 81265.44,
+      "buy_share": 0.7494,
+      "price_change_m5_pct": 5.14,
+      "price_change_h1_pct": 96.21
     }
   ],
   "lessons": [
+    {
+      "symbol": "greg",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.429862,
+      "holding_s": 31.506598711013794,
+      "exit": "adverse stop / momentum failure"
+    },
+    {
+      "symbol": "greg",
+      "observation": "Costs consumed the gross edge",
+      "net_eur": -0.360941,
+      "holding_s": 91.78089261054993,
+      "exit": "trailing reversal from observed peak"
+    },
+    {
+      "symbol": "greg",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.680716,
+      "holding_s": 12.50267744064331,
+      "exit": "adverse stop / momentum failure"
+    },
     {
       "symbol": "SLIDES",
       "observation": "Negative modeled outcome",
@@ -1229,27 +1278,6 @@
       "net_eur": 0.824481,
       "holding_s": 126.7651047706604,
       "exit": "profit target / momentum target reached before exit costs"
-    },
-    {
-      "symbol": "DOGCOIN",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.399765,
-      "holding_s": 24.010102033615112,
-      "exit": "adverse stop / momentum failure"
-    },
-    {
-      "symbol": "Chunkee",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.653045,
-      "holding_s": 79.80424880981445,
-      "exit": "momentum reversal across 60s and 180s windows"
-    },
-    {
-      "symbol": "SHIT",
-      "observation": "Costs consumed the gross edge",
-      "net_eur": -0.247585,
-      "holding_s": 157.33300018310547,
-      "exit": "trailing reversal from observed peak"
     }
   ],
   "improvements": [
