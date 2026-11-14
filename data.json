@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794688293.09966,
+  "generated_at": 1794688326.2495155,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -8,9 +8,9 @@
     "tagline": "A Solana paper-trading experiment, observed honestly."
   },
   "status": {
-    "label": "ENGINE OFFLINE",
-    "tone": "offline",
-    "engine_online": false,
+    "label": "LIVE PAPER MODEL",
+    "tone": "live",
+    "engine_online": true,
     "market_data_fresh": true,
     "updated_age_s": 0.6
   },
@@ -49,7 +49,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 5103.722595691681,
+      "held_s": 5136.872451305389,
       "mark_status": "unverified / zero conservative mark",
       "momentum": {
         "return_60s_pct": null,
@@ -1003,71 +1003,66 @@
     {
       "ts": 1794688261.3905404,
       "equity_eur": 58.8273
+    },
+    {
+      "ts": 1794688321.502563,
+      "equity_eur": 58.8273
     }
   ],
   "radar": [
     {
-      "symbol": "JENSEN",
-      "price_usd": 0.0008331,
-      "liquidity_usd": 71810.88,
-      "volume_h1_usd": 57135.82,
-      "buy_share": 0.625,
-      "price_change_m5_pct": 66.45,
-      "price_change_h1_pct": 97.09
+      "symbol": "greg",
+      "price_usd": 4.26e-05,
+      "liquidity_usd": 13536.34,
+      "volume_h1_usd": 82441.93,
+      "buy_share": 0.568,
+      "price_change_m5_pct": 63.56,
+      "price_change_h1_pct": 42.15
+    },
+    {
+      "symbol": "GANG",
+      "price_usd": 1.921e-05,
+      "liquidity_usd": 33249.1,
+      "volume_h1_usd": 8379.57,
+      "buy_share": 0.8643,
+      "price_change_m5_pct": 26.53,
+      "price_change_h1_pct": 26.53
+    },
+    {
+      "symbol": "bill",
+      "price_usd": 8.07e-05,
+      "liquidity_usd": 147078.22,
+      "volume_h1_usd": 129873.8,
+      "buy_share": 0.7317,
+      "price_change_m5_pct": 15.09,
+      "price_change_h1_pct": 17.77
     },
     {
       "symbol": "VI",
-      "price_usd": 3.036e-05,
-      "liquidity_usd": 14456.85,
-      "volume_h1_usd": 10501.96,
-      "buy_share": 0.6269,
-      "price_change_m5_pct": 47.97,
-      "price_change_h1_pct": 20.31
-    },
-    {
-      "symbol": "greg",
-      "price_usd": 3.501e-05,
-      "liquidity_usd": 12193.52,
-      "volume_h1_usd": 80047.79,
-      "buy_share": 0.5612,
-      "price_change_m5_pct": 34.45,
-      "price_change_h1_pct": 16.85
-    },
-    {
-      "symbol": "bill",
-      "price_usd": 7.954e-05,
-      "liquidity_usd": 145961.67,
-      "volume_h1_usd": 88498.28,
-      "buy_share": 0.7576,
-      "price_change_m5_pct": 13.43,
-      "price_change_h1_pct": 16.07
+      "price_usd": 2.725e-05,
+      "liquidity_usd": 13603.94,
+      "volume_h1_usd": 11357.8,
+      "buy_share": 0.6157,
+      "price_change_m5_pct": 32.81,
+      "price_change_h1_pct": 7.99
     },
     {
       "symbol": "Anne",
-      "price_usd": 1.682e-05,
-      "liquidity_usd": 31027.89,
-      "volume_h1_usd": 6155.5,
-      "buy_share": 0.8868,
-      "price_change_m5_pct": 14.79,
-      "price_change_h1_pct": 14.79
+      "price_usd": 1.657e-05,
+      "liquidity_usd": 30800.77,
+      "volume_h1_usd": 6794.39,
+      "buy_share": 0.8874,
+      "price_change_m5_pct": 13.11,
+      "price_change_h1_pct": 13.11
     },
     {
       "symbol": "bill",
-      "price_usd": 0.0003048,
-      "liquidity_usd": 57020.21,
-      "volume_h1_usd": 798295.67,
-      "buy_share": 0.5805,
-      "price_change_m5_pct": 8.16,
-      "price_change_h1_pct": 414.0
-    },
-    {
-      "symbol": "GETAJOB",
-      "price_usd": 0.0002925,
-      "liquidity_usd": 37704.78,
-      "volume_h1_usd": 33482.49,
-      "buy_share": 0.6984,
-      "price_change_m5_pct": 11.22,
-      "price_change_h1_pct": -1.47
+      "price_usd": 0.000303,
+      "liquidity_usd": 56891.53,
+      "volume_h1_usd": 809387.62,
+      "buy_share": 0.5799,
+      "price_change_m5_pct": 7.52,
+      "price_change_h1_pct": 411.0
     },
     {
       "symbol": "billie",
@@ -1079,13 +1074,13 @@
       "price_change_h1_pct": 12.65
     },
     {
-      "symbol": "Starship",
-      "price_usd": 4.118e-05,
-      "liquidity_usd": 13396.1,
-      "volume_h1_usd": 59551.49,
-      "buy_share": 0.5685,
-      "price_change_m5_pct": 18.81,
-      "price_change_h1_pct": 38.16
+      "symbol": "GETAJOB",
+      "price_usd": 0.0002908,
+      "liquidity_usd": 37591.98,
+      "volume_h1_usd": 33828.02,
+      "buy_share": 0.6996,
+      "price_change_m5_pct": 10.58,
+      "price_change_h1_pct": -2.04
     },
     {
       "symbol": "BTC",
@@ -1095,6 +1090,15 @@
       "buy_share": 0.8209,
       "price_change_m5_pct": 11.52,
       "price_change_h1_pct": 6.51
+    },
+    {
+      "symbol": "MORNING",
+      "price_usd": 3.6e-11,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 8243.26,
+      "buy_share": 0.8606,
+      "price_change_m5_pct": -100.0,
+      "price_change_h1_pct": -100.0
     }
   ],
   "lessons": [
