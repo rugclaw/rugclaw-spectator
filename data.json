@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794690288.7970767,
+  "generated_at": 1794690341.9811325,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -49,7 +49,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 7099.42001247406,
+      "held_s": 7152.604068279266,
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
@@ -72,7 +72,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 1087.8407337665558,
+      "held_s": 1141.024789571762,
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
@@ -1098,37 +1098,46 @@
       "equity_eur": 38.0799
     },
     {
-      "ts": 1794690241.2989469,
+      "ts": 1794690300.4736679,
       "equity_eur": 38.0799
     }
   ],
   "radar": [
     {
-      "symbol": "greg",
-      "price_usd": 8.433e-05,
-      "liquidity_usd": 19728.14,
-      "volume_h1_usd": 191564.82,
-      "buy_share": 0.5859,
-      "price_change_m5_pct": 160.0,
-      "price_change_h1_pct": 181.0
-    },
-    {
       "symbol": "MORNING",
-      "price_usd": 4.692e-05,
-      "liquidity_usd": 50796.16,
-      "volume_h1_usd": 167359.28,
-      "buy_share": 0.8174,
-      "price_change_m5_pct": 34.86,
-      "price_change_h1_pct": 243.0
+      "price_usd": 4.896e-05,
+      "liquidity_usd": 51891.84,
+      "volume_h1_usd": 172975.96,
+      "buy_share": 0.8148,
+      "price_change_m5_pct": 22.66,
+      "price_change_h1_pct": 258.0
     },
     {
       "symbol": "GANG",
-      "price_usd": 4.741e-05,
-      "liquidity_usd": 51831.36,
-      "volume_h1_usd": 169210.38,
-      "buy_share": 0.8291,
-      "price_change_m5_pct": 24.24,
-      "price_change_h1_pct": 212.0
+      "price_usd": 4.718e-05,
+      "liquidity_usd": 51712.74,
+      "volume_h1_usd": 175215.25,
+      "buy_share": 0.8261,
+      "price_change_m5_pct": 20.15,
+      "price_change_h1_pct": 211.0
+    },
+    {
+      "symbol": "TRENCHER",
+      "price_usd": 2.238e-05,
+      "liquidity_usd": 35689.66,
+      "volume_h1_usd": 40949.61,
+      "buy_share": 0.8242,
+      "price_change_m5_pct": 13.28,
+      "price_change_h1_pct": 55.97
+    },
+    {
+      "symbol": "BTC",
+      "price_usd": 3.385e-05,
+      "liquidity_usd": 13583.73,
+      "volume_h1_usd": 8607.03,
+      "buy_share": 0.7661,
+      "price_change_m5_pct": 25.19,
+      "price_change_h1_pct": 136.0
     },
     {
       "symbol": "Anne",
@@ -1136,35 +1145,17 @@
       "liquidity_usd": 0.0,
       "volume_h1_usd": 192334.7,
       "buy_share": 0.8029,
-      "price_change_m5_pct": 7.47,
+      "price_change_m5_pct": 0.0,
       "price_change_h1_pct": 376.0
     },
     {
-      "symbol": "TRENCHER",
-      "price_usd": 2.181e-05,
-      "liquidity_usd": 35222.83,
-      "volume_h1_usd": 39466.79,
-      "buy_share": 0.8278,
-      "price_change_m5_pct": 10.37,
-      "price_change_h1_pct": 51.96
-    },
-    {
-      "symbol": "BTC",
-      "price_usd": 3.324e-05,
-      "liquidity_usd": 13443.41,
-      "volume_h1_usd": 8464.33,
-      "buy_share": 0.7633,
-      "price_change_m5_pct": 23.68,
-      "price_change_h1_pct": 132.0
-    },
-    {
       "symbol": "BLGvsGEN",
-      "price_usd": 2.131e-05,
-      "liquidity_usd": 34812.88,
-      "volume_h1_usd": 36403.14,
-      "buy_share": 0.8298,
-      "price_change_m5_pct": 6.91,
-      "price_change_h1_pct": 46.31
+      "price_usd": 2.156e-05,
+      "liquidity_usd": 35016.56,
+      "volume_h1_usd": 37463.56,
+      "buy_share": 0.8267,
+      "price_change_m5_pct": 8.14,
+      "price_change_h1_pct": 47.99
     },
     {
       "symbol": "慌啥子嘛",
@@ -1176,22 +1167,31 @@
       "price_change_h1_pct": 30.05
     },
     {
-      "symbol": "Democat",
-      "price_usd": 1.732e-05,
-      "liquidity_usd": 31267.55,
-      "volume_h1_usd": 17678.83,
-      "buy_share": 0.8761,
-      "price_change_m5_pct": 6.06,
-      "price_change_h1_pct": 21.77
+      "symbol": "bill",
+      "price_usd": 5.253e-07,
+      "liquidity_usd": 94827.56,
+      "volume_h1_usd": 196691.27,
+      "buy_share": 0.7481,
+      "price_change_m5_pct": 0.2,
+      "price_change_h1_pct": 16.97
     },
     {
-      "symbol": "loco",
-      "price_usd": 8.221e-05,
-      "liquidity_usd": 19801.0,
-      "volume_h1_usd": 339668.55,
-      "buy_share": 0.6003,
-      "price_change_m5_pct": 12.03,
-      "price_change_h1_pct": 180.0
+      "symbol": "Democat",
+      "price_usd": 1.703e-05,
+      "liquidity_usd": 31005.34,
+      "volume_h1_usd": 18676.07,
+      "buy_share": 0.871,
+      "price_change_m5_pct": 4.28,
+      "price_change_h1_pct": 19.73
+    },
+    {
+      "symbol": "慌啥子嘛",
+      "price_usd": 1.713e-05,
+      "liquidity_usd": 31982.17,
+      "volume_h1_usd": 36797.36,
+      "buy_share": 0.8631,
+      "price_change_m5_pct": -2.89,
+      "price_change_h1_pct": 14.1
     }
   ],
   "lessons": [
