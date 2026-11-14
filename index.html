@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b10">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="RugClaw Observatory — a sanitised, read-only spectator view of a simulated Solana paper-trading experiment. No wallet, no real funds, no transactions.">
+  <meta name="robots" content="index, follow">
+  <title>RugClaw Observatory · Paper Trading</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/public.css?v=3">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the experiment</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="aurora aurora-a" aria-hidden="true"></div>
+  <div class="aurora aurora-b" aria-hidden="true"></div>
+
+  <header class="site-head">
+    <a class="brand" href="./" aria-label="RugClaw Observatory home">
+      <span class="brand-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#claw"/></svg></span>
+      <span class="brand-type"><strong>RugClaw</strong><small>OBSERVATORY</small></span>
+    </a>
+    <div class="head-center" aria-hidden="true"><span>PUBLIC SPECTATOR</span><i></i><span>READ ONLY</span></div>
+    <div class="head-actions">
+      <span class="paper-badge"><span class="paper-dot"></span> PAPER TRADING</span>
+      <span id="statusPill" class="status-pill tone-offline"><span class="status-dot"></span><span id="statusLabel">Connecting</span></span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span>SIMULATED SOLANA MOMENTUM EXPERIMENT</span><i></i></p>
+        <h1>The <em>RugClaw</em><br>Observatory.</h1>
+        <p class="lede">A live ledger of a machine learning to trade a memecoin market it cannot control. Every euro here is virtual. Every loss stays visible. Nothing is signed, submitted or broadcast.</p>
+        <div class="hero-tags">
+          <span>€100 starting capital</span>
+          <span>5 concurrent paper positions</span>
+          <span>60s · 180s · 300s evidence</span>
+        </div>
+        <div class="hero-scope">
+          <span class="scope-mark">i</span>
+          <p>Pool-model marks are estimates, not executable quotes. Simulated results do not establish skill or future returns.</p>
+        </div>
+      </div>
+
+      <div class="equity-panel reveal" data-delay="1">
+        <div class="panel-head">
+          <div>
+            <p class="panel-eyebrow">VIRTUAL EQUITY</p>
+            <p class="panel-sub" id="equitySub">Waiting for the first sanitised snapshot…</p>
+          </div>
+          <span class="paper-pill">PAPER ONLY</span>
+        </div>
+        <div class="hero-number" id="heroEquity">—</div>
+        <div class="hero-delta">
+          <span id="heroDelta">—</span>
+          <span id="heroRoi">—</span>
+          <span class="hero-funded" id="heroFunded">—</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="equityCanvas" role="img" aria-label="Virtual equity curve over the observation window"></canvas>
+          <div class="chart-grid" aria-hidden="true"></div>
+          <div class="chart-empty" id="chartEmpty" hidden>No equity observations yet.</div>
+          <div class="chart-tip" id="chartTip" hidden></div>
+        </div>
+        <div class="chart-foot">
+          <span id="chartRange">Rolling equity observations</span>
+          <span id="chartPoints">—</span>
+        </div>
+        <div class="hero-mini">
+          <div><span>Starting</span><b id="miniStarting">—</b></div>
+          <div><span>Peak</span><b id="miniPeak">—</b></div>
+          <div><span>Closed</span><b id="miniClosed">—</b></div>
+        </div>
+        <div class="sync-line">
+          <span><i class="sync-dot"></i><span id="lastSync">Awaiting snapshot</span></span>
+          <span id="freshness">Read-only · sanitised</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>NO WALLET</span><i></i><span>NO SIGNING</span><i></i><span>NO BROADCAST</span><i></i><span>PAPER TRADING ONLY</span><i></i><span>LOSSES STAY VISIBLE</span><i></i><span>REAL MARKET DATA</span><i></i>
+        <span>NO WALLET</span><i></i><span>NO SIGNING</span><i></i><span>NO BROADCAST</span><i></i><span>PAPER TRADING ONLY</span><i></i><span>LOSSES STAY VISIBLE</span><i></i><span>REAL MARKET DATA</span><i></i>
+      </div>
+    </div>
+
+    <section class="section stats-section reveal" aria-labelledby="statsTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span>THE SCORECARD</span><i></i></p>
+          <h2 id="statsTitle">Honest arithmetic.</h2>
+        </div>
+        <p class="section-note">Net of modelled fees and slippage. Unavailable exits are valued at zero, never invented.</p>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card stat-primary">
+          <span class="stat-label">Equity</span>
+          <b class="stat-value" id="statEquity">—</b>
+          <span class="stat-sub" id="statEquitySub">virtual capital</span>
+          <span class="stat-rule"></span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Realised</span>
+          <b class="stat-value" id="statRealised">—</b>
+          <span class="stat-sub" id="statRealisedSub">lifetime net</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Win rate</span>
+          <b class="stat-value" id="statWinRate">—</b>
+          <span class="stat-sub" id="statWinSub">no closed trades yet</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Closed trades</span>
+          <b class="stat-value" id="statClosed">—</b>
+          <span class="stat-sub" id="statClosedSub">all kept in the ledger</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Cash</span>
+          <b class="stat-value" id="statCash">—</b>
+          <span class="stat-sub" id="statCashSub">uncommitted paper capital</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Mean hold</span>
+          <b class="stat-value" id="statHold">—</b>
+          <span class="stat-sub">per completed trade</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Best trade</span>
+          <b class="stat-value tone-mint" id="statBest">—</b>
+          <span class="stat-sub" id="statWorst">Worst —</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Modelled costs</span>
+          <b class="stat-value" id="statCosts">—</b>
+          <span class="stat-sub" id="statCostsSub">fees + slippage</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section reveal" aria-label="Training round and method">
+      <article class="round-card">
+        <div class="round-head">
+          <div>
+            <p class="eyebrow"><span>TRAINING ROUND</span><i></i></p>
+            <h2 id="roundTitle">Round —</h2>
+          </div>
+          <span id="roundBadge" class="round-badge">WAITING</span>
+        </div>
+        <p class="round-sub" id="roundSub">The current paper-training session will appear here.</p>
+        <div class="round-watermark" id="roundWatermark" aria-hidden="true">00</div>
+        <div class="round-grid">
+          <div><span>Round net</span><b id="roundNet">—</b></div>
+          <div><span>Closed</span><b id="roundClosed">—</b></div>
+          <div><span>Wins</span><b id="roundWins">—</b></div>
+          <div><span>Losses</span><b id="roundLosses">—</b></div>
+          <div><span>Deposits</span><b id="roundDeposits">—</b></div>
+          <div><span>Started</span><b id="roundStarted">—</b></div>
+        </div>
+        <p class="round-note" id="roundNote">Each round is bounded and preserved. A new round never resets the account or deletes history.</p>
+      </article>
+
+      <article class="method-card">
+        <p class="eyebrow"><span>HOW TO READ THIS</span><i></i></p>
+        <h2>A simulation,<br>not a sales pitch.</h2>
+        <ul class="method-list">
+          <li><b>Virtual money only.</b><span>No wallet, private key, custody or blockchain transaction exists anywhere in this system.</span></li>
+          <li><b>Pool-model marks.</b><span>Values use public aggregator observations and an adverse constant-product approximation. They are not executable quotes.</span></li>
+          <li><b>Momentum exits.</b><span>Positions are re-evaluated against actual successive 60s, 180s and 300s observations. HOLD and SELL evidence is recorded.</span></li>
+          <li><b>No hidden losses.</b><span>Losing trades, failed entries and costs remain in the public record. The starting €100 is the benchmark.</span></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section book-section reveal" aria-labelledby="bookTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span>LATEST OBSERVED BOOK</span><i></i></p>
+          <h2 id="bookTitle">Open paper positions.</h2>
+        </div>
+        <p class="section-note" id="bookNote">Up to five concurrent simulations, each managed independently.</p>
+      </div>
+      <div class="position-grid" id="positionGrid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+    </section>
+
+    <section class="section trades-section reveal" aria-labelledby="tradesTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span>THE PAPER TAPE</span><i></i></p>
+          <h2 id="tradesTitle">Recently closed.</h2>
+        </div>
+        <p class="section-note">The latest completed simulations, including the uncomfortable ones.</p>
+      </div>
+      <div class="table-shell">
+        <table class="data-table">
+          <thead>
+            <tr><th>Token</th><th>Closed</th><th class="right">Net</th><th>Exit evidence</th><th class="right">Held</th></tr>
+          </thead>
+          <tbody id="tradesBody">
+            <tr><td colspan="5" class="table-empty">Waiting for the first completed trade…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section learning-section reveal" aria-labelledby="learningTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span>THE LEARNING LAB</span><i></i></p>
+          <h2 id="learningTitle">What the lobster learned.</h2>
+        </div>
+        <p class="section-note">Lessons are written after closed trades. Proposed changes are forward-test ideas, never claims of an edge.</p>
+      </div>
+      <div class="learning-grid">
+        <article class="learning-panel">
+          <div class="panel-title"><h3>Trade lessons</h3><span id="lessonCount" class="mini-badge">0</span></div>
+          <div class="lesson-list" id="lessonList">
+            <p class="empty-copy">No lesson has been recorded yet.</p>
+          </div>
+        </article>
+        <article class="learning-panel">
+          <div class="panel-title"><h3>Proposed improvements</h3><span id="improvementCount" class="mini-badge">0</span></div>
+          <div class="improvement-list" id="improvementList">
+            <p class="empty-copy">No forward experiment has been proposed yet.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section radar-section reveal" aria-labelledby="radarTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span>PUBLIC MARKET RADAR</span><i></i></p>
+          <h2 id="radarTitle">What the machine is watching.</h2>
+        </div>
+        <p class="section-note">Aggregator observations used for discovery. Nothing here is a buy instruction or an executable quote.</p>
+      </div>
+      <div class="table-shell">
+        <table class="data-table radar-table">
+          <thead>
+            <tr><th>Token</th><th class="right">Price</th><th class="right">5m</th><th class="right">1h</th><th class="right">Liquidity</th><th class="right">Volume 1h</th><th>Buy pressure</th></tr>
+          </thead>
+          <tbody id="radarBody">
+            <tr><td colspan="7" class="table-empty">Waiting for public market observations…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section honesty-section reveal" aria-label="Important disclaimer">
+      <div class="honesty-mark" aria-hidden="true">!</div>
+      <div>
+        <p class="eyebrow"><span>THE FINE PRINT, IN LARGE TYPE</span><i></i></p>
+        <h2>This is a simulation. It cannot prove an edge.</h2>
+        <p id="disclaimerText">Simulation only. No real funds, wallet, orders or blockchain transactions exist. Past simulated results do not establish skill or future returns.</p>
+        <p class="honesty-scope" id="scopeText">Sanitised spectator view of a simulated Solana paper-trading experiment.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="foot-brand">
+      <span class="brand-mark small"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#claw"/></svg></span>
+      <div><strong>RugClaw Observatory</strong><small>PAPER TRADING · READ ONLY · SANITISED</small></div>
+    </div>
+    <div class="foot-meta">
+      <span>Snapshot <b id="footGenerated">—</b></span>
+      <span>Schema <b>rugclaw-public-v1</b></span>
+      <span>No wallet · no signer · no broadcast</span>
+    </div>
+  </footer>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="claw" viewBox="0 0 64 64">
+      <path fill="currentColor" d="M13 9c2.6 0 4.7 2.1 4.7 4.7v8.6c0 3.6 2.9 6.5 6.5 6.5h2.4V15c0-2.6 2.1-4.7 4.7-4.7s4.7 2.1 4.7 4.7v13.8h2.4c3.6 0 6.5-2.9 6.5-6.5v-8.6c0-2.6 2.1-4.7 4.7-4.7S55 10.1 55 12.7v9.7c0 8.5-6.9 15.4-15.4 15.4h-1.8c1.4 2 2.2 4.5 2.2 7.1v5.4c0 2.6-2.1 4.7-4.7 4.7s-4.7-2.1-4.7-4.7v-5.4c0-2.6-.8-5.1-2.2-7.1h-1.8C17.9 37.8 11 30.9 11 22.4v-9.7C11 10.1 13.1 9 13 9Z"/>
+      <circle cx="20" cy="50" r="3.4" fill="currentColor" opacity=".7"/>
+      <circle cx="32" cy="54" r="3.4" fill="currentColor" opacity=".7"/>
+      <circle cx="44" cy="50" r="3.4" fill="currentColor" opacity=".7"/>
+    </symbol>
+  </svg>
+
+  <script src="./assets/public.js?v=3"></script>
+</body>
+</html>
