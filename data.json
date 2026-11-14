@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794687922.7511215,
+  "generated_at": 1794688160.486408,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,7 +12,7 @@
     "tone": "offline",
     "engine_online": false,
     "market_data_fresh": false,
-    "updated_age_s": 0.5
+    "updated_age_s": 0.7
   },
   "account": {
     "starting_eur": 100.0,
@@ -49,7 +49,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 4733.374057292938,
+      "held_s": 4971.109343767166,
       "mark_status": "unverified / zero conservative mark",
       "momentum": {
         "return_60s_pct": null,
@@ -997,8 +997,8 @@
       "equity_eur": 79.5871
     },
     {
-      "ts": 1794683221.1856103,
-      "equity_eur": 79.5094
+      "ts": 1794688160.8603625,
+      "equity_eur": 58.8273
     }
   ],
   "radar": [
@@ -1171,6 +1171,6 @@
       "promotion": "Not established from this batch"
     }
   ],
-  "scope": "Sanitised spectator view of a simulated Solana paper-trading experiment. No wallet, credentials or real funds are involved.",
+  "scope": "Sanitised spectator view of a simulated Solana paper-trading experiment. No wallet, credentials or real funds are involved. Data correction: an invalid provider-price sale was reversed; original evidence is retained and contaminated equity points are excluded.",
   "disclaimer": "Simulation only. No real funds, wallet, orders or blockchain transactions exist. Past simulated results do not establish skill or future returns."
 }
