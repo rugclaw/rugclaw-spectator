@@ -791,3 +791,6 @@ h2 { margin-bottom: 0; font-family: var(--serif); font-size: clamp(32px, 4.4vw, 
 }
 
 :focus-visible { outline: 2px solid var(--mint); outline-offset: 3px; }
+
+.pump-token-link { display: block; width: fit-content; margin: 5px 0; font-size: 11px; color: #5ef0c0; text-decoration: underline; }
+.mint-address { overflow-wrap: anywhere; word-break: break-all; }

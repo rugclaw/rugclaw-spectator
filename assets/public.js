@@ -139,6 +139,22 @@
     return parsed > 0 ? "tone-mint" : "tone-coral";
   }
 
+  function pumpLink(item) {
+    const href = item && ((item.links && item.links.pump_fun) || item.pump_fun_url);
+    const prefix = "https://pump.fun/coin/";
+    if (typeof href !== "string" || !href.startsWith(prefix)) return "";
+    const mint = href.slice(prefix.length);
+    const alphabet = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+    if (!/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(mint)) return "";
+    let value = 0n;
+    for (const ch of mint) value = value * 58n + BigInt(alphabet.indexOf(ch));
+    let bytes = 0;
+    while (value > 0n) { bytes += 1; value >>= 8n; }
+    bytes += (mint.match(/^1*/) || [""])[0].length;
+    if (bytes !== 32) return "";
+    return `<a class="pump-token-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">🚀 View on Pump.fun</a>`;
+  }
+
   function initials(symbol) {
     const clean = String(symbol || "?").replace(/[^A-Za-z0-9]/g, "");
     return (clean.slice(0, 2) || "?").toUpperCase();
@@ -577,7 +593,7 @@
           : "Awaiting the next verified observation.";
         return `<article class="position-card">
           <div class="position-top">
-            <div class="token-lockup">${avatar(position.symbol)}<div><strong>${esc(position.symbol)}</strong><small>PAPER POSITION · ${esc(String(position.mark_status || "pool-model mark").toUpperCase())}</small></div></div>
+            <div class="token-lockup">${avatar(position.symbol)}<div><strong>${esc(position.symbol)}</strong>${pumpLink(position)}<small>PAPER POSITION · ${esc(String(position.mark_status || "pool-model mark").toUpperCase())}</small></div></div>
             <span class="${decisionClass(position.decision)}">${esc(position.decision || "AWAIT")}</span>
           </div>
           <div class="position-pnl">
@@ -615,7 +631,7 @@
         const net = num(trade.net_eur);
         const evidence = humanise(trade.exit_reason) || "Recorded exit";
         return `<tr>
-          <td><div class="trade-token">${avatar(trade.symbol)}${esc(trade.symbol)}</div></td>
+          <td><div class="trade-token">${avatar(trade.symbol)}<div>${esc(trade.symbol)}${pumpLink(trade)}</div></div></td>
           <td><span class="when">${stamp(trade.ts)}</span></td>
           <td class="right"><span class="net ${toneFor(net)}">${money(net, 2, true)}</span></td>
           <td><span class="evidence">${esc(evidence)}</span></td>
