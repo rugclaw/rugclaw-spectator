@@ -21,7 +21,7 @@ A public, read-only spectator page for a **simulated Solana paper-trading experi
 - trade lessons and proposed forward experiments
 - a sanitised public market radar
 
-It excludes mints, pool addresses, wallets, credentials, internal identifiers, order references and all owner controls.
+The owner authorised canonical Pump.fun links for bought tokens. Those links intentionally disclose the verified public token mint. Raw mint fields, pool addresses, wallets, credentials, internal identifiers, order references and owner controls remain excluded. Links open in a new tab and do not establish that a listing exists or an exit is executable.
 
 ## Honesty
 
