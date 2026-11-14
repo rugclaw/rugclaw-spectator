@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794688160.486408,
+  "generated_at": 1794688293.09966,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -11,8 +11,8 @@
     "label": "ENGINE OFFLINE",
     "tone": "offline",
     "engine_online": false,
-    "market_data_fresh": false,
-    "updated_age_s": 0.7
+    "market_data_fresh": true,
+    "updated_age_s": 0.6
   },
   "account": {
     "starting_eur": 100.0,
@@ -36,7 +36,7 @@
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -0.4128239999999999,
+    "net_eur": -20.421824,
     "closed_trades": 15,
     "wins": 6,
     "losses": 9,
@@ -49,13 +49,13 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 4971.109343767166,
+      "held_s": 5103.722595691681,
       "mark_status": "unverified / zero conservative mark",
       "momentum": {
         "return_60s_pct": null,
         "return_180s_pct": null,
         "return_300s_pct": null,
-        "buy_share_h1": 0.634662
+        "buy_share_h1": null
       },
       "decision": "SELL",
       "decision_reason": "liquidity deterioration below half the entry minimum"
@@ -999,98 +999,102 @@
     {
       "ts": 1794688160.8603625,
       "equity_eur": 58.8273
+    },
+    {
+      "ts": 1794688261.3905404,
+      "equity_eur": 58.8273
     }
   ],
   "radar": [
     {
-      "symbol": "WOJAK",
-      "price_usd": 9.06e-05,
-      "liquidity_usd": 20617.91,
-      "volume_h1_usd": 156128.61,
-      "buy_share": 0.5864,
-      "price_change_m5_pct": 52.65,
-      "price_change_h1_pct": 201.0
+      "symbol": "JENSEN",
+      "price_usd": 0.0008331,
+      "liquidity_usd": 71810.88,
+      "volume_h1_usd": 57135.82,
+      "buy_share": 0.625,
+      "price_change_m5_pct": 66.45,
+      "price_change_h1_pct": 97.09
     },
     {
-      "symbol": "HORMUZ",
-      "price_usd": 0.05909,
-      "liquidity_usd": 98857.35,
-      "volume_h1_usd": 20036.37,
-      "buy_share": 0.7933,
-      "price_change_m5_pct": 41.46,
-      "price_change_h1_pct": 41.46
+      "symbol": "VI",
+      "price_usd": 3.036e-05,
+      "liquidity_usd": 14456.85,
+      "volume_h1_usd": 10501.96,
+      "buy_share": 0.6269,
+      "price_change_m5_pct": 47.97,
+      "price_change_h1_pct": 20.31
     },
     {
-      "symbol": "JUMP",
-      "price_usd": 1.782e-05,
-      "liquidity_usd": 32114.28,
-      "volume_h1_usd": 14115.95,
-      "buy_share": 0.8821,
-      "price_change_m5_pct": 22.97,
-      "price_change_h1_pct": 22.97
+      "symbol": "greg",
+      "price_usd": 3.501e-05,
+      "liquidity_usd": 12193.52,
+      "volume_h1_usd": 80047.79,
+      "buy_share": 0.5612,
+      "price_change_m5_pct": 34.45,
+      "price_change_h1_pct": 16.85
     },
     {
-      "symbol": "GREGORY",
-      "price_usd": 4.521e-07,
-      "liquidity_usd": 77535.84,
-      "volume_h1_usd": 35400.03,
-      "buy_share": 0.6693,
-      "price_change_m5_pct": 30.01,
-      "price_change_h1_pct": 30.01
+      "symbol": "bill",
+      "price_usd": 7.954e-05,
+      "liquidity_usd": 145961.67,
+      "volume_h1_usd": 88498.28,
+      "buy_share": 0.7576,
+      "price_change_m5_pct": 13.43,
+      "price_change_h1_pct": 16.07
     },
     {
-      "symbol": "Democat",
-      "price_usd": 1.408e-09,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 133550.69,
-      "buy_share": 0.8366,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -99.99
+      "symbol": "Anne",
+      "price_usd": 1.682e-05,
+      "liquidity_usd": 31027.89,
+      "volume_h1_usd": 6155.5,
+      "buy_share": 0.8868,
+      "price_change_m5_pct": 14.79,
+      "price_change_h1_pct": 14.79
     },
     {
-      "symbol": "MORNING",
-      "price_usd": 1.54e-05,
-      "liquidity_usd": 29107.33,
-      "volume_h1_usd": 18774.04,
-      "buy_share": 0.8571,
-      "price_change_m5_pct": 11.84,
-      "price_change_h1_pct": 11.84
+      "symbol": "bill",
+      "price_usd": 0.0003048,
+      "liquidity_usd": 57020.21,
+      "volume_h1_usd": 798295.67,
+      "buy_share": 0.5805,
+      "price_change_m5_pct": 8.16,
+      "price_change_h1_pct": 414.0
     },
     {
-      "symbol": "aura ",
-      "price_usd": 1.51e-06,
-      "liquidity_usd": 1620.8,
-      "volume_h1_usd": 339502.05,
-      "buy_share": 0.7424,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -98.41
+      "symbol": "GETAJOB",
+      "price_usd": 0.0002925,
+      "liquidity_usd": 37704.78,
+      "volume_h1_usd": 33482.49,
+      "buy_share": 0.6984,
+      "price_change_m5_pct": 11.22,
+      "price_change_h1_pct": -1.47
     },
     {
       "symbol": "billie",
-      "price_usd": 0.0001162,
-      "liquidity_usd": 184064.89,
-      "volume_h1_usd": 2115991.69,
-      "buy_share": 0.5963,
-      "price_change_m5_pct": 5.04,
-      "price_change_h1_pct": 64.49
-    },
-    {
-      "symbol": "PROMETHEUS",
-      "price_usd": 2.212e-05,
-      "liquidity_usd": 11665.08,
-      "volume_h1_usd": 167068.91,
-      "buy_share": 0.5494,
-      "price_change_m5_pct": 17.41,
-      "price_change_h1_pct": -50.2
-    },
-    {
-      "symbol": "Other",
-      "price_usd": 2.375e-09,
+      "price_usd": 0.0001492,
       "liquidity_usd": 0.0,
-      "volume_h1_usd": 783837.5,
-      "buy_share": 0.6347,
+      "volume_h1_usd": 2137948.93,
+      "buy_share": 0.5882,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -99.31
+      "price_change_h1_pct": 12.65
+    },
+    {
+      "symbol": "Starship",
+      "price_usd": 4.118e-05,
+      "liquidity_usd": 13396.1,
+      "volume_h1_usd": 59551.49,
+      "buy_share": 0.5685,
+      "price_change_m5_pct": 18.81,
+      "price_change_h1_pct": 38.16
+    },
+    {
+      "symbol": "BTC",
+      "price_usd": 1.646e-05,
+      "liquidity_usd": 9005.6,
+      "volume_h1_usd": 2539.31,
+      "buy_share": 0.8209,
+      "price_change_m5_pct": 11.52,
+      "price_change_h1_pct": 6.51
     }
   ],
   "lessons": [
