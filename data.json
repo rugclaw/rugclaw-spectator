@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794693921.552755,
+  "generated_at": 1794694828.270605,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -16,19 +16,19 @@
   },
   "account": {
     "starting_eur": 100.0,
-    "equity_eur": 35.86057,
-    "cash_eur": 21.010167,
-    "realised_eur": -23.724875,
+    "equity_eur": 34.145401,
+    "cash_eur": 34.145401,
+    "realised_eur": -25.854599,
     "owner_deposits_eur": 0.0,
-    "roi_pct": -23.724875,
-    "open": 3,
-    "closed": 95,
-    "wins": 30,
-    "losses": 65,
-    "win_rate": 0.3157894736842105,
-    "mean_hold_s": 75.21336983128597,
-    "fees_eur": 13.413687,
-    "slippage_eur": 22.457584,
+    "roi_pct": -25.854599,
+    "open": 2,
+    "closed": 102,
+    "wins": 31,
+    "losses": 71,
+    "win_rate": 0.30392156862745096,
+    "mean_hold_s": 74.63372960277633,
+    "fees_eur": 14.247392,
+    "slippage_eur": 23.933058,
     "best_trade_eur": 2.023529,
     "worst_trade_eur": -4.311305
   },
@@ -36,10 +36,10 @@
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -43.388585,
-    "closed_trades": 33,
-    "wins": 11,
-    "losses": 22,
+    "net_eur": -45.103754,
+    "closed_trades": 40,
+    "wins": 12,
+    "losses": 28,
     "deposits_eur": 0.0
   },
   "positions": [
@@ -49,14 +49,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 10732.175690889359,
+      "held_s": 11638.893540859222,
       "pump_fun_url": "https://pump.fun/coin/1AL8tzYNuBcnoSMcSnUNcHtUA6efweADsdKJfaYwhmB",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794693673.7254176,
-        "retry_after": 1794693973.7254176
+        "checked_at": 1794694578.978568,
+        "retry_after": 1794694878.978568
       },
       "momentum": {
         "return_60s_pct": null,
@@ -68,43 +68,19 @@
       "decision_reason": "reported zero pool liquidity"
     },
     {
-      "symbol": "greg",
-      "cost_eur": 15.264958,
-      "value_eur": 14.850403,
-      "unrealised_eur": -0.414555,
-      "unrealised_pct": -2.7157297124564606,
-      "held_s": 70.39960551261902,
-      "pump_fun_url": "https://pump.fun/coin/4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-      "mark_status": "conservative pool-model liquidation",
-      "exit_state": {
-        "classification": "AVAILABLE",
-        "reason": "pool_model_only_route_unverified",
-        "checked_at": 1794693920.3729694,
-        "retry_after": 1794693920.3729694
-      },
-      "momentum": {
-        "return_60s_pct": 0.0,
-        "return_180s_pct": -0.641437,
-        "return_300s_pct": 2.865336,
-        "buy_share_h1": 0.632911
-      },
-      "decision": "HOLD",
-      "decision_reason": null
-    },
-    {
       "symbol": "TRENCHER",
       "cost_eur": 20.0,
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 4720.596412181854,
+      "held_s": 5627.314262151718,
       "pump_fun_url": "https://pump.fun/coin/H7GbpSjwdmDJwGyPXW9CfVvdCyga4GC2cKeayxKpBZTd",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794693804.106633,
-        "retry_after": 1794694104.106633
+        "checked_at": 1794694704.7742078,
+        "retry_after": 1794695004.7742078
       },
       "momentum": {
         "return_60s_pct": null,
@@ -117,6 +93,62 @@
     }
   ],
   "recent_trades": [
+    {
+      "ts": 1794694674.725385,
+      "pump_fun_url": "https://pump.fun/coin/6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+      "symbol": "SHIT",
+      "net_eur": -0.568183,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 95.49920010566711
+    },
+    {
+      "ts": 1794694601.0534673,
+      "pump_fun_url": "https://pump.fun/coin/3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump",
+      "symbol": "J*B",
+      "net_eur": -0.394748,
+      "exit_reason": "adverse stop / momentum failure",
+      "held_s": 21.92496633529663
+    },
+    {
+      "ts": 1794694438.6621373,
+      "pump_fun_url": "https://pump.fun/coin/6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+      "symbol": "SHIT",
+      "net_eur": -0.077362,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 104.60941934585571
+    },
+    {
+      "ts": 1794694422.5049791,
+      "pump_fun_url": "https://pump.fun/coin/4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+      "symbol": "greg",
+      "net_eur": -0.302313,
+      "exit_reason": "momentum reversal across 60s and 180s windows",
+      "held_s": 56.19755172729492
+    },
+    {
+      "ts": 1794694240.2929668,
+      "pump_fun_url": "https://pump.fun/coin/4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+      "symbol": "greg",
+      "net_eur": 0.109016,
+      "exit_reason": "adverse stop / momentum failure",
+      "held_s": 35.62906742095947
+    },
+    {
+      "ts": 1794694073.281576,
+      "pump_fun_url": "https://pump.fun/coin/6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+      "symbol": "SHIT",
+      "net_eur": -0.207793,
+      "exit_reason": "momentum reversal across 60s and 180s windows",
+      "held_s": 44.974820137023926
+    },
+    {
+      "ts": 1794693959.68841,
+      "pump_fun_url": "https://pump.fun/coin/4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+      "symbol": "greg",
+      "net_eur": -0.688341,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 108.53526043891907
+    },
     {
       "ts": 1794693897.3978987,
       "pump_fun_url": "https://pump.fun/coin/6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
@@ -220,62 +252,6 @@
       "net_eur": -0.680716,
       "exit_reason": "adverse stop / momentum failure",
       "held_s": 12.50267744064331
-    },
-    {
-      "ts": 1794690200.66366,
-      "pump_fun_url": "https://pump.fun/coin/8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
-      "symbol": "SLIDES",
-      "net_eur": -3.086437,
-      "exit_reason": "adverse stop / momentum failure",
-      "held_s": 188.48445081710815
-    },
-    {
-      "ts": 1794689586.0595021,
-      "pump_fun_url": "https://pump.fun/coin/8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
-      "symbol": "SLIDES",
-      "net_eur": -0.109268,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 111.95944452285767
-    },
-    {
-      "ts": 1794689044.7878015,
-      "pump_fun_url": "https://pump.fun/coin/H7GbpSjwdmDJwGyPXW9CfVvdCyga4GC2cKeayxKpBZTd",
-      "symbol": "TRENCHER",
-      "net_eur": 2.023529,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 88.75558495521545
-    },
-    {
-      "ts": 1794688829.763107,
-      "pump_fun_url": "https://pump.fun/coin/H7GbpSjwdmDJwGyPXW9CfVvdCyga4GC2cKeayxKpBZTd",
-      "symbol": "TRENCHER",
-      "net_eur": 0.824481,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 126.7651047706604
-    },
-    {
-      "ts": 1794688590.8390512,
-      "pump_fun_url": "https://pump.fun/coin/46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump",
-      "symbol": "DOGCOIN",
-      "net_eur": -0.399765,
-      "exit_reason": "adverse stop / momentum failure",
-      "held_s": 24.010102033615112
-    },
-    {
-      "ts": 1794683543.8372586,
-      "pump_fun_url": "https://pump.fun/coin/5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump",
-      "symbol": "Chunkee",
-      "net_eur": -0.653045,
-      "exit_reason": "momentum reversal across 60s and 180s windows",
-      "held_s": 79.80424880981445
-    },
-    {
-      "ts": 1794683413.3396616,
-      "pump_fun_url": "https://pump.fun/coin/6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
-      "symbol": "SHIT",
-      "net_eur": -0.247585,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 157.33300018310547
     }
   ],
   "equity": [
@@ -938,159 +914,185 @@
     {
       "ts": 1794693901.547394,
       "equity_eur": 35.9964
+    },
+    {
+      "ts": 1794694080.6531408,
+      "equity_eur": 35.379
+    },
+    {
+      "ts": 1794694260.602454,
+      "equity_eur": 35.488
+    },
+    {
+      "ts": 1794694441.8343196,
+      "equity_eur": 35.1083
+    },
+    {
+      "ts": 1794694620.6219976,
+      "equity_eur": 34.4271
+    },
+    {
+      "ts": 1794694800.229731,
+      "equity_eur": 34.1454
     }
   ],
   "radar": [
     {
-      "symbol": "SEET",
-      "price_usd": 3.972e-05,
-      "liquidity_usd": 12817.53,
-      "volume_h1_usd": 57140.06,
-      "buy_share": 0.5645,
-      "price_change_m5_pct": 106.0,
-      "price_change_h1_pct": 33.73
+      "symbol": "GANG",
+      "price_usd": 3.193e-05,
+      "liquidity_usd": 42227.1,
+      "volume_h1_usd": 65536.84,
+      "buy_share": 0.8655,
+      "price_change_m5_pct": 53.32,
+      "price_change_h1_pct": 117.0
     },
     {
-      "symbol": "FOMO",
-      "price_usd": 1.314e-05,
-      "liquidity_usd": 19231.96,
-      "volume_h1_usd": 68159.07,
-      "buy_share": 0.7307,
-      "price_change_m5_pct": 25.24,
-      "price_change_h1_pct": 88.36
+      "symbol": "rOS",
+      "price_usd": 2.159e-05,
+      "liquidity_usd": 9134.05,
+      "volume_h1_usd": 72747.16,
+      "buy_share": 0.5353,
+      "price_change_m5_pct": 58.47,
+      "price_change_h1_pct": -22.11
     },
     {
-      "symbol": "Democat",
-      "price_usd": 2.786e-05,
-      "liquidity_usd": 0.01,
-      "volume_h1_usd": 102632.59,
-      "buy_share": 0.855,
+      "symbol": "kibble",
+      "price_usd": 2.903e-05,
+      "liquidity_usd": 11004.7,
+      "volume_h1_usd": 13633.82,
+      "buy_share": 0.5976,
+      "price_change_m5_pct": 40.56,
+      "price_change_h1_pct": 12.21
+    },
+    {
+      "symbol": "bill",
+      "price_usd": 0.0003427,
+      "liquidity_usd": 60315.58,
+      "volume_h1_usd": 199431.86,
+      "buy_share": 0.584,
+      "price_change_m5_pct": 26.21,
+      "price_change_h1_pct": 64.27
+    },
+    {
+      "symbol": "NADF",
+      "price_usd": 1.5364386e-05,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 12185.49,
+      "buy_share": 1.0,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 53.98
-    },
-    {
-      "symbol": "YoungBull",
-      "price_usd": 4.682e-05,
-      "liquidity_usd": 15353.2,
-      "volume_h1_usd": 12273.03,
-      "buy_share": 0.5053,
-      "price_change_m5_pct": 41.24,
-      "price_change_h1_pct": 94.57
+      "price_change_h1_pct": 0.0
     },
     {
       "symbol": "Anne",
-      "price_usd": 1.942e-05,
-      "liquidity_usd": 32873.96,
-      "volume_h1_usd": 19660.92,
-      "buy_share": 0.87,
-      "price_change_m5_pct": 5.37,
-      "price_change_h1_pct": 36.55
+      "price_usd": 2.014e-05,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 27129.82,
+      "buy_share": 0.8706,
+      "price_change_m5_pct": 0.0,
+      "price_change_h1_pct": 41.56
     },
     {
       "symbol": "bill",
-      "price_usd": 5.38e-07,
-      "liquidity_usd": 97321.71,
-      "volume_h1_usd": 825315.4,
-      "buy_share": 0.6754,
-      "price_change_m5_pct": -1.33,
-      "price_change_h1_pct": 2.8
+      "price_usd": 5.553e-07,
+      "liquidity_usd": 99020.07,
+      "volume_h1_usd": 828388.64,
+      "buy_share": 0.6164,
+      "price_change_m5_pct": 2.07,
+      "price_change_h1_pct": 5.67
     },
     {
-      "symbol": "慌啥子嘛",
-      "price_usd": 1e-11,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 290796.41,
-      "buy_share": 0.714,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -100.0
-    },
-    {
-      "symbol": "GANG",
-      "price_usd": 1.701e-05,
-      "liquidity_usd": 30835.4,
-      "volume_h1_usd": 16170.64,
-      "buy_share": 0.8695,
-      "price_change_m5_pct": 3.7,
-      "price_change_h1_pct": 15.43
+      "symbol": "PUMP",
+      "price_usd": 0.002853,
+      "liquidity_usd": 19053202.38,
+      "volume_h1_usd": 793088.8,
+      "buy_share": 0.5963,
+      "price_change_m5_pct": 0.22,
+      "price_change_h1_pct": 2.11
     },
     {
       "symbol": "WASTED",
-      "price_usd": 0.00691097061,
-      "liquidity_usd": 223400.89,
-      "volume_h1_usd": 242419.04,
-      "buy_share": 0.6856,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 22.434
+      "price_usd": 0.006818,
+      "liquidity_usd": 234997.46,
+      "volume_h1_usd": 364911.01,
+      "buy_share": 0.6273,
+      "price_change_m5_pct": -2.52,
+      "price_change_h1_pct": 36.73
     },
     {
-      "symbol": "bill",
-      "price_usd": 0.0002144,
-      "liquidity_usd": 46975.08,
-      "volume_h1_usd": 274361.21,
-      "buy_share": 0.6079,
-      "price_change_m5_pct": 1.43,
-      "price_change_h1_pct": -23.13
+      "symbol": "FOMO",
+      "price_usd": 1.102e-05,
+      "liquidity_usd": 17717.36,
+      "volume_h1_usd": 139951.78,
+      "buy_share": 0.6502,
+      "price_change_m5_pct": -5.25,
+      "price_change_h1_pct": 57.97
     }
   ],
   "lessons": [
+    {
+      "symbol": "SHIT",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.568183,
+      "holding_s": 95.49920010566711,
+      "exit": "trailing reversal from observed peak"
+    },
+    {
+      "symbol": "J*B",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.394748,
+      "holding_s": 21.92496633529663,
+      "exit": "adverse stop / momentum failure"
+    },
+    {
+      "symbol": "SHIT",
+      "observation": "Costs consumed the gross edge",
+      "net_eur": -0.077362,
+      "holding_s": 104.60941934585571,
+      "exit": "trailing reversal from observed peak"
+    },
+    {
+      "symbol": "greg",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.302313,
+      "holding_s": 56.19755172729492,
+      "exit": "momentum reversal across 60s and 180s windows"
+    },
+    {
+      "symbol": "greg",
+      "observation": "Positive modeled outcome",
+      "net_eur": 0.109016,
+      "holding_s": 35.62906742095947,
+      "exit": "adverse stop / momentum failure"
+    },
+    {
+      "symbol": "SHIT",
+      "observation": "Costs consumed the gross edge",
+      "net_eur": -0.207793,
+      "holding_s": 44.974820137023926,
+      "exit": "momentum reversal across 60s and 180s windows"
+    },
+    {
+      "symbol": "greg",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.688341,
+      "holding_s": 108.53526043891907,
+      "exit": "trailing reversal from observed peak"
+    },
     {
       "symbol": "SHIT",
       "observation": "Positive modeled outcome",
       "net_eur": 0.960167,
       "holding_s": 83.13924789428711,
       "exit": "profit target / momentum target reached before exit costs"
-    },
-    {
-      "symbol": "greg",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.399908,
-      "holding_s": 29.5939040184021,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "greg",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.658819,
-      "holding_s": 43.42944288253784,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "SHIT",
-      "observation": "Costs consumed the gross edge",
-      "net_eur": -0.162331,
-      "holding_s": 162.72315526008606,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "SHIT",
-      "observation": "Positive modeled outcome",
-      "net_eur": 1.525998,
-      "holding_s": 55.21934485435486,
-      "exit": "profit target / momentum target reached before exit costs"
-    },
-    {
-      "symbol": "SHIT",
-      "observation": "Positive modeled outcome",
-      "net_eur": 0.890722,
-      "holding_s": 88.89869809150696,
-      "exit": "profit target / momentum target reached before exit costs"
-    },
-    {
-      "symbol": "SHIT",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.535186,
-      "holding_s": 106.40860915184021,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "greg",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.799257,
-      "holding_s": 53.91796159744263,
-      "exit": "momentum reversal across 60s and 180s windows"
     }
   ],
   "improvements": [
+    {
+      "parameter": "stop_loss_pct",
+      "value": 2,
+      "hypothesis": "Mixed outcomes: test a smaller downside trigger; execution gaps remain possible",
+      "promotion": "Not established from this batch"
+    },
     {
       "parameter": "hold_s",
       "value": 30,
@@ -1101,12 +1103,6 @@
       "parameter": "take_profit_pct",
       "value": 5,
       "hypothesis": "Negative net results: test whether a larger gross edge covers execution costs",
-      "promotion": "Not established from this batch"
-    },
-    {
-      "parameter": "stop_loss_pct",
-      "value": 2,
-      "hypothesis": "Mixed outcomes: test a smaller downside trigger; execution gaps remain possible",
       "promotion": "Not established from this batch"
     }
   ],
