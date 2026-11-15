@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794732915.4188232,
+  "generated_at": 1794733822.6497784,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,24 +12,24 @@
     "tone": "live",
     "engine_online": true,
     "market_data_fresh": true,
-    "updated_age_s": 0.7
+    "updated_age_s": 0.9
   },
   "account": {
     "starting_eur": 100.0,
-    "equity_eur": 83.407344,
-    "cash_eur": 63.782929,
-    "realised_eur": -96.217071,
+    "equity_eur": 59.966151,
+    "cash_eur": 20.943096,
+    "realised_eur": -99.056904,
     "owner_deposits_eur": 100.0,
-    "roi_pct": -48.1085355,
-    "open": 2,
-    "closed": 179,
+    "roi_pct": -49.528452,
+    "open": 4,
+    "closed": 185,
     "retired": 2,
     "wins": 58,
-    "losses": 121,
-    "win_rate": 0.3240223463687151,
-    "mean_hold_s": 206.68968906216116,
-    "fees_eur": 24.150701,
-    "slippage_eur": 40.13749,
+    "losses": 127,
+    "win_rate": 0.31351351351351353,
+    "mean_hold_s": 202.48303903760137,
+    "fees_eur": 25.123416,
+    "slippage_eur": 41.703017,
     "best_trade_eur": 3.793275,
     "worst_trade_eur": -20.0
   },
@@ -37,27 +37,75 @@
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -95.841811,
-    "closed_trades": 117,
+    "net_eur": -119.283004,
+    "closed_trades": 123,
     "wins": 39,
-    "losses": 78,
+    "losses": 84,
     "deposits_eur": 100.0
   },
   "positions": [
+    {
+      "symbol": "HOGE",
+      "cost_eur": 20.0,
+      "value_eur": 0.0,
+      "unrealised_eur": -20.0,
+      "unrealised_pct": -100.0,
+      "held_s": 656.6960368156433,
+      "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
+      "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
+      "exit_state": {
+        "classification": "UNSALEABLE",
+        "reason": "reported_zero_pool_liquidity",
+        "checked_at": 1794733761.7500088,
+        "retry_after": 1794734061.7500088
+      },
+      "momentum": {
+        "return_60s_pct": null,
+        "return_180s_pct": null,
+        "return_300s_pct": null,
+        "buy_share_h1": 0.602637
+      },
+      "decision": "UNSALEABLE",
+      "decision_reason": "reported zero pool liquidity"
+    },
+    {
+      "symbol": "CLOCKED",
+      "cost_eur": 20.0,
+      "value_eur": 19.378711,
+      "unrealised_eur": -0.621289,
+      "unrealised_pct": -3.106445000000002,
+      "held_s": 81.32677507400513,
+      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
+      "mark_status": "conservative pool-model liquidation",
+      "exit_state": {
+        "classification": "AVAILABLE",
+        "reason": "pool_model_only_route_unverified",
+        "checked_at": 1794733820.4594944,
+        "retry_after": 1794733820.4594944
+      },
+      "momentum": {
+        "return_60s_pct": -1.288192,
+        "return_180s_pct": 0.066968,
+        "return_300s_pct": 0.775586,
+        "buy_share_h1": 0.532609
+      },
+      "decision": "HOLD",
+      "decision_reason": null
+    },
     {
       "symbol": "JENSEN",
       "cost_eur": 20.0,
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 36539.688905239105,
+      "held_s": 37446.91986036301,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794732725.8669763,
-        "retry_after": 1794733025.8669763
+        "checked_at": 1794733630.4892411,
+        "retry_after": 1794733930.4892411
       },
       "momentum": {
         "return_60s_pct": null,
@@ -69,31 +117,85 @@
       "decision_reason": "reported zero pool liquidity"
     },
     {
-      "symbol": "DOJE",
+      "symbol": "bill",
       "cost_eur": 20.0,
-      "value_eur": 19.624415,
-      "unrealised_eur": -0.375585,
-      "unrealised_pct": -1.8779250000000025,
-      "held_s": 12.670301914215088,
-      "pump_fun_url": "https://pump.fun/coin/7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+      "value_eur": 19.644344,
+      "unrealised_eur": -0.355656,
+      "unrealised_pct": -1.7782799999999988,
+      "held_s": 19.143764972686768,
+      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
       "mark_status": "conservative pool-model liquidation",
       "exit_state": {
         "classification": "AVAILABLE",
         "reason": "pool_model_only_route_unverified",
-        "checked_at": 1794732906.600781,
-        "retry_after": 1794732906.600781
+        "checked_at": 1794733820.4594944,
+        "retry_after": 1794733820.4594944
       },
       "momentum": {
-        "return_60s_pct": 1.243024,
-        "return_180s_pct": 2.019427,
-        "return_300s_pct": 1.037975,
-        "buy_share_h1": 0.561161
+        "return_60s_pct": 2.260641,
+        "return_180s_pct": -0.041203,
+        "return_300s_pct": 3.146259,
+        "buy_share_h1": 0.590829
       },
       "decision": "HOLD",
       "decision_reason": null
     }
   ],
   "recent_trades": [
+    {
+      "status": "closed",
+      "ts": 1794733677.788007,
+      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+      "symbol": "bill",
+      "net_eur": -0.355656,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 22.067429304122925
+    },
+    {
+      "status": "closed",
+      "ts": 1794733580.3139095,
+      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
+      "symbol": "CLOCKED",
+      "net_eur": -0.398554,
+      "exit_reason": "momentum reversal across 60s and 180s windows",
+      "held_s": 119.03001260757446
+    },
+    {
+      "status": "closed",
+      "ts": 1794733527.554579,
+      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+      "symbol": "bill",
+      "net_eur": -0.673617,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 58.904346227645874
+    },
+    {
+      "status": "closed",
+      "ts": 1794733301.6515915,
+      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
+      "symbol": "CLOCKED",
+      "net_eur": -0.421952,
+      "exit_reason": "momentum reversal across 60s and 180s windows",
+      "held_s": 41.00298023223877
+    },
+    {
+      "status": "closed",
+      "ts": 1794733084.3251157,
+      "pump_fun_url": "https://pump.fun/coin/7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+      "symbol": "DOJE",
+      "net_eur": -0.301798,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 181.57659435272217
+    },
+    {
+      "status": "closed",
+      "ts": 1794733002.2752664,
+      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
+      "symbol": "CLOCKED",
+      "net_eur": -0.688256,
+      "exit_reason": "momentum reversal across 60s and 180s windows",
+      "held_s": 39.32651710510254
+    },
     {
       "status": "closed",
       "ts": 1794732891.4749362,
@@ -219,60 +321,6 @@
       "net_eur": 1.25501,
       "exit_reason": "profit target / momentum target reached before exit costs",
       "held_s": 123.13795566558838
-    },
-    {
-      "status": "closed",
-      "ts": 1794731125.0749397,
-      "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
-      "symbol": "HOGE",
-      "net_eur": 0.033686,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 61.543079137802124
-    },
-    {
-      "status": "closed",
-      "ts": 1794731017.8406618,
-      "pump_fun_url": "https://pump.fun/coin/FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "symbol": "HOGE",
-      "net_eur": -0.235363,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 75.96709370613098
-    },
-    {
-      "status": "closed",
-      "ts": 1794730882.8293056,
-      "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
-      "symbol": "HOGE",
-      "net_eur": 0.760758,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 105.88251876831055
-    },
-    {
-      "status": "closed",
-      "ts": 1794730821.8630605,
-      "pump_fun_url": "https://pump.fun/coin/wU5bfkG2Nph26NxEQv6jVaSHfhzozYFRMyR6AvvnUoC",
-      "symbol": "BLG",
-      "net_eur": 1.235371,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 44.776039838790894
-    },
-    {
-      "status": "closed",
-      "ts": 1794730794.267118,
-      "pump_fun_url": "https://pump.fun/coin/9TjNE2HmETBq4fAh9GZAy6LjPPadQBXuEFasCpMmsim",
-      "symbol": "DacityCoin",
-      "net_eur": -0.083203,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 543.0436542034149
-    },
-    {
-      "status": "closed",
-      "ts": 1794730748.3401709,
-      "pump_fun_url": "https://pump.fun/coin/LZZ1MtZdH53z8LABuQ4VaBjGKdxK2ThjHT27kf4MkqM",
-      "symbol": "ニャジラ",
-      "net_eur": -4.60392,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 38.59446310997009
     }
   ],
   "equity": [
@@ -1193,100 +1241,112 @@
       "equity_eur": 84.2211
     },
     {
-      "ts": 1794732900.9883082,
-      "equity_eur": 83.7829
+      "ts": 1794733084.5769758,
+      "equity_eur": 82.7929
+    },
+    {
+      "ts": 1794733381.220164,
+      "equity_eur": 62.3709
+    },
+    {
+      "ts": 1794733683.223098,
+      "equity_eur": 60.9431
+    },
+    {
+      "ts": 1794733800.3756728,
+      "equity_eur": 60.3477
     }
   ],
   "radar": [
     {
       "symbol": "哈基仙人",
-      "price_usd": 4.199e-05,
-      "liquidity_usd": 48940.49,
-      "volume_h1_usd": 114090.82,
-      "buy_share": 0.8703,
-      "price_change_m5_pct": 21.36,
-      "price_change_h1_pct": 170.0
+      "price_usd": 7.011e-05,
+      "liquidity_usd": 63991.91,
+      "volume_h1_usd": 235791.35,
+      "buy_share": 0.8327,
+      "price_change_m5_pct": 20.51,
+      "price_change_h1_pct": 351.0
     },
     {
       "symbol": "NEX Ai",
-      "price_usd": 2.426e-05,
-      "liquidity_usd": 37108.36,
-      "volume_h1_usd": 41345.44,
-      "buy_share": 0.8759,
-      "price_change_m5_pct": 15.35,
-      "price_change_h1_pct": 71.77
+      "price_usd": 4.717e-05,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 156423.71,
+      "buy_share": 0.8396,
+      "price_change_m5_pct": 14.4,
+      "price_change_h1_pct": 234.0
     },
     {
-      "symbol": "Mentat",
-      "price_usd": 7.804e-07,
-      "liquidity_usd": 118753.89,
-      "volume_h1_usd": 1082901.64,
-      "buy_share": 0.7236,
-      "price_change_m5_pct": 5.3,
-      "price_change_h1_pct": 73.83
-    },
-    {
-      "symbol": "Mentat",
-      "price_usd": 8.155e-07,
-      "liquidity_usd": 123038.37,
-      "volume_h1_usd": 1343163.34,
-      "buy_share": 0.6438,
-      "price_change_m5_pct": 4.96,
-      "price_change_h1_pct": 79.68
-    },
-    {
-      "symbol": "PAW",
-      "price_usd": 5.079e-05,
-      "liquidity_usd": 14791.03,
-      "volume_h1_usd": 54613.63,
-      "buy_share": 0.5826,
-      "price_change_m5_pct": 27.65,
-      "price_change_h1_pct": 153.0
-    },
-    {
-      "symbol": "DacityCoin",
-      "price_usd": 0.0001249,
-      "liquidity_usd": 211049.27,
-      "volume_h1_usd": 4701483.3,
-      "buy_share": 0.6244,
-      "price_change_m5_pct": 0.42,
-      "price_change_h1_pct": 16.81
+      "symbol": "mihao",
+      "price_usd": 5.606e-07,
+      "liquidity_usd": 96709.14,
+      "volume_h1_usd": 119910.5,
+      "buy_share": 0.6506,
+      "price_change_m5_pct": 30.79,
+      "price_change_h1_pct": 30.79
     },
     {
       "symbol": "HOGE",
-      "price_usd": 8.294e-07,
-      "liquidity_usd": 124995.9,
-      "volume_h1_usd": 3200156.61,
-      "buy_share": 0.6134,
-      "price_change_m5_pct": 3.66,
-      "price_change_h1_pct": 96.66
+      "price_usd": 1.409e-05,
+      "liquidity_usd": 18625.06,
+      "volume_h1_usd": 201163.41,
+      "buy_share": 0.6317,
+      "price_change_m5_pct": 21.71,
+      "price_change_h1_pct": 146.0
+    },
+    {
+      "symbol": "Barkada",
+      "price_usd": 2.565e-06,
+      "liquidity_usd": 2341.55,
+      "volume_h1_usd": 40185.95,
+      "buy_share": 0.5192,
+      "price_change_m5_pct": 37.92,
+      "price_change_h1_pct": -91.25
     },
     {
       "symbol": "Mentat",
-      "price_usd": 7.271e-07,
-      "liquidity_usd": 105153.51,
-      "volume_h1_usd": 1449006.22,
-      "buy_share": 0.6332,
-      "price_change_m5_pct": 2.56,
-      "price_change_h1_pct": 97.18
-    },
-    {
-      "symbol": "Koop",
-      "price_usd": 2.19e-10,
+      "price_usd": 8.776e-07,
       "liquidity_usd": 0.0,
-      "volume_h1_usd": 4175277.85,
-      "buy_share": 0.5945,
+      "volume_h1_usd": 2003235.94,
+      "buy_share": 0.6746,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -100.0
+      "price_change_h1_pct": 95.47
     },
     {
-      "symbol": "BLG",
-      "price_usd": 1.977e-05,
-      "liquidity_usd": 33448.66,
-      "volume_h1_usd": 21722.4,
-      "buy_share": 0.8575,
-      "price_change_m5_pct": 3.87,
-      "price_change_h1_pct": 26.95
+      "symbol": "DacityCoin",
+      "price_usd": 0.0001293,
+      "liquidity_usd": 219304.31,
+      "volume_h1_usd": 4721818.38,
+      "buy_share": 0.6244,
+      "price_change_m5_pct": 1.0,
+      "price_change_h1_pct": 15.35
+    },
+    {
+      "symbol": "Mentat",
+      "price_usd": 8.687e-07,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 2543833.02,
+      "buy_share": 0.6279,
+      "price_change_m5_pct": -1.21,
+      "price_change_h1_pct": 91.41
+    },
+    {
+      "symbol": "Mentat",
+      "price_usd": 8.359e-07,
+      "liquidity_usd": 117273.66,
+      "volume_h1_usd": 2923091.32,
+      "buy_share": 0.6189,
+      "price_change_m5_pct": 0.05,
+      "price_change_h1_pct": 127.0
+    },
+    {
+      "symbol": "HOGE",
+      "price_usd": 8.519e-07,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 3710058.53,
+      "buy_share": 0.6026,
+      "price_change_m5_pct": 0.0,
+      "price_change_h1_pct": 102.0
     }
   ],
   "lessons": [
@@ -1305,46 +1365,46 @@
       "exit": "SUSPECTED RUG / UNSALEABLE; conservative write-down, no sale"
     },
     {
-      "symbol": "HOGE",
+      "symbol": "bill",
       "observation": "Negative modeled outcome",
-      "net_eur": -0.564596,
-      "holding_s": 400.4151420593262,
+      "net_eur": -0.355656,
+      "holding_s": 22.067429304122925,
       "exit": "trailing reversal from observed peak"
     },
     {
       "symbol": "CLOCKED",
       "observation": "Negative modeled outcome",
-      "net_eur": -0.833365,
-      "holding_s": 161.70250058174133,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "HOGE",
-      "observation": "Costs consumed the gross edge",
-      "net_eur": -0.036852,
-      "holding_s": 339.2463712692261,
-      "exit": "trailing reversal from observed peak"
+      "net_eur": -0.398554,
+      "holding_s": 119.03001260757446,
+      "exit": "momentum reversal across 60s and 180s windows"
     },
     {
       "symbol": "bill",
       "observation": "Negative modeled outcome",
-      "net_eur": -0.52209,
-      "holding_s": 68.60684180259705,
+      "net_eur": -0.673617,
+      "holding_s": 58.904346227645874,
       "exit": "trailing reversal from observed peak"
     },
     {
       "symbol": "CLOCKED",
       "observation": "Negative modeled outcome",
-      "net_eur": -0.653648,
-      "holding_s": 164.46286797523499,
+      "net_eur": -0.421952,
+      "holding_s": 41.00298023223877,
+      "exit": "momentum reversal across 60s and 180s windows"
+    },
+    {
+      "symbol": "DOJE",
+      "observation": "Costs consumed the gross edge",
+      "net_eur": -0.301798,
+      "holding_s": 181.57659435272217,
       "exit": "trailing reversal from observed peak"
     },
     {
-      "symbol": "HOGE",
-      "observation": "Costs consumed the gross edge",
-      "net_eur": -0.266284,
-      "holding_s": 95.41447901725769,
-      "exit": "trailing reversal from observed peak"
+      "symbol": "CLOCKED",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.688256,
+      "holding_s": 39.32651710510254,
+      "exit": "momentum reversal across 60s and 180s windows"
     }
   ],
   "improvements": [
