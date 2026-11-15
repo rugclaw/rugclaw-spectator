@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794702085.6987708,
+  "generated_at": 1794702992.859268,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -50,14 +50,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 5709.968852758408,
+      "held_s": 6617.129349946976,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794701791.3973515,
-        "retry_after": 1794702091.3973515
+        "checked_at": 1794702692.9979548,
+        "retry_after": 1794702992.9979548
       },
       "momentum": {
         "return_60s_pct": null,
@@ -1093,100 +1093,120 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794702061.7626884,
+      "ts": 1794702186.2262046,
+      "equity_eur": 2.2015
+    },
+    {
+      "ts": 1794702360.5968664,
+      "equity_eur": 2.2015
+    },
+    {
+      "ts": 1794702544.4144402,
+      "equity_eur": 2.2015
+    },
+    {
+      "ts": 1794702722.0079455,
+      "equity_eur": 2.2015
+    },
+    {
+      "ts": 1794702901.960205,
+      "equity_eur": 2.2015
+    },
+    {
+      "ts": 1794702961.4410036,
       "equity_eur": 2.2015
     }
   ],
   "radar": [
     {
-      "symbol": "mihao",
-      "price_usd": 2.912e-05,
-      "liquidity_usd": 26582.86,
-      "volume_h1_usd": 267768.76,
-      "buy_share": 0.6157,
-      "price_change_m5_pct": 86.67,
-      "price_change_h1_pct": 411.0
-    },
-    {
-      "symbol": "GTA$",
-      "price_usd": 0.0001774,
-      "liquidity_usd": 57871.77,
-      "volume_h1_usd": 476486.93,
-      "buy_share": 0.6164,
-      "price_change_m5_pct": 56.15,
-      "price_change_h1_pct": 3719.0
+      "symbol": "HYGG",
+      "price_usd": 0.0003424,
+      "liquidity_usd": 40404.86,
+      "volume_h1_usd": 153038.6,
+      "buy_share": 0.4655,
+      "price_change_m5_pct": 83.28,
+      "price_change_h1_pct": 1066.0
     },
     {
       "symbol": "RWA",
-      "price_usd": 0.0001554,
-      "liquidity_usd": 26890.62,
-      "volume_h1_usd": 168236.91,
-      "buy_share": 0.8725,
-      "price_change_m5_pct": 22.32,
-      "price_change_h1_pct": 352.0
-    },
-    {
-      "symbol": "SWAN",
-      "price_usd": 3.096e-05,
-      "liquidity_usd": 9947.61,
-      "volume_h1_usd": 7946.91,
-      "buy_share": 0.5417,
-      "price_change_m5_pct": 53.48,
-      "price_change_h1_pct": 19.72
+      "price_usd": 0.0001387,
+      "liquidity_usd": 25350.7,
+      "volume_h1_usd": 201554.21,
+      "buy_share": 0.8833,
+      "price_change_m5_pct": 28.34,
+      "price_change_h1_pct": 55.66
     },
     {
       "symbol": "慌啥子嘛",
-      "price_usd": 1.856e-05,
-      "liquidity_usd": 32887.08,
-      "volume_h1_usd": 33304.3,
-      "buy_share": 0.8731,
-      "price_change_m5_pct": 7.1,
-      "price_change_h1_pct": 25.56
+      "price_usd": 3.187e-05,
+      "liquidity_usd": 43090.57,
+      "volume_h1_usd": 97175.98,
+      "buy_share": 0.8323,
+      "price_change_m5_pct": 24.63,
+      "price_change_h1_pct": 116.0
     },
     {
       "symbol": "DOJE",
       "price_usd": 0.0001534,
-      "liquidity_usd": 26803.4,
-      "volume_h1_usd": 200579.99,
-      "buy_share": 0.769,
-      "price_change_m5_pct": 2.98,
-      "price_change_h1_pct": 350.0
+      "liquidity_usd": 26715.21,
+      "volume_h1_usd": 167706.49,
+      "buy_share": 0.7735,
+      "price_change_m5_pct": 6.81,
+      "price_change_h1_pct": 120.0
     },
     {
-      "symbol": "Lucia",
-      "price_usd": 0.000538,
-      "liquidity_usd": 51048.08,
-      "volume_h1_usd": 298841.69,
-      "buy_share": 0.7545,
-      "price_change_m5_pct": -24.01,
-      "price_change_h1_pct": 1292.0
+      "symbol": "ZORPO",
+      "price_usd": 2.281e-05,
+      "liquidity_usd": 26288.41,
+      "volume_h1_usd": 1119428.67,
+      "buy_share": 0.6114,
+      "price_change_m5_pct": 10.4,
+      "price_change_h1_pct": 240.0
     },
     {
-      "symbol": "SWIF",
-      "price_usd": 0.0001278,
-      "liquidity_usd": 24415.81,
-      "volume_h1_usd": 189920.59,
-      "buy_share": 0.7167,
-      "price_change_m5_pct": 5.92,
-      "price_change_h1_pct": 11.61
+      "symbol": "UMAF",
+      "price_usd": 0.1051,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 22912.0,
+      "buy_share": 0.7727,
+      "price_change_m5_pct": 13.99,
+      "price_change_h1_pct": 48.47
+    },
+    {
+      "symbol": "BLGvsGEN",
+      "price_usd": 1.792e-05,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 27993.76,
+      "buy_share": 0.8527,
+      "price_change_m5_pct": 2.03,
+      "price_change_h1_pct": 26.94
+    },
+    {
+      "symbol": "Bear",
+      "price_usd": 0.0001259,
+      "liquidity_usd": 25329.04,
+      "volume_h1_usd": 439608.53,
+      "buy_share": 0.5863,
+      "price_change_m5_pct": 10.7,
+      "price_change_h1_pct": 250.0
     },
     {
       "symbol": "bill",
       "price_usd": 8.456e-07,
       "liquidity_usd": 0.0,
-      "volume_h1_usd": 2894322.99,
-      "buy_share": 0.6142,
+      "volume_h1_usd": 2134905.05,
+      "buy_share": 0.603,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 102.0
+      "price_change_h1_pct": 21.25
     },
     {
-      "symbol": "Bear",
-      "price_usd": 0.0001299,
-      "liquidity_usd": 25460.37,
-      "volume_h1_usd": 440978.65,
-      "buy_share": 0.6087,
-      "price_change_m5_pct": -13.58,
-      "price_change_h1_pct": 299.0
+      "symbol": "begwork",
+      "price_usd": 1.678e-05,
+      "liquidity_usd": 7970.19,
+      "volume_h1_usd": 53501.39,
+      "buy_share": 0.5593,
+      "price_change_m5_pct": 22.37,
+      "price_change_h1_pct": -44.77
     }
   ],
   "lessons": [
