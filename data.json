@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794777458.2761126,
+  "generated_at": 1794778369.039336,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,7 +12,7 @@
     "tone": "offline",
     "engine_online": false,
     "market_data_fresh": false,
-    "updated_age_s": 48.9
+    "updated_age_s": 59.0
   },
   "account": {
     "starting_eur": 100.0,
@@ -50,7 +50,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 44292.32237100601,
+      "held_s": 45203.085594415665,
       "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
@@ -74,7 +74,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 81082.54619455338,
+      "held_s": 81993.30941796303,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
@@ -276,18 +276,6 @@
     }
   ],
   "equity": [
-    {
-      "ts": 1794691080.4073577,
-      "equity_eur": 37.0382
-    },
-    {
-      "ts": 1794691381.5764089,
-      "equity_eur": 36.6084
-    },
-    {
-      "ts": 1794691681.1492112,
-      "equity_eur": 35.9665
-    },
     {
       "ts": 1794691982.0860002,
       "equity_eur": 35.4537
