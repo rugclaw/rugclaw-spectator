@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794735637.1493237,
+  "generated_at": 1794736544.4483252,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,34 +12,34 @@
     "tone": "live",
     "engine_online": true,
     "market_data_fresh": true,
-    "updated_age_s": 0.8
+    "updated_age_s": 0.7
   },
   "account": {
     "starting_eur": 100.0,
-    "equity_eur": 53.740748,
-    "cash_eur": 34.123753,
-    "realised_eur": -105.876247,
+    "equity_eur": 61.349793,
+    "cash_eur": 61.349793,
+    "realised_eur": -98.650207,
     "owner_deposits_eur": 100.0,
-    "roi_pct": -52.9381235,
-    "open": 3,
-    "closed": 198,
+    "roi_pct": -49.3251035,
+    "open": 2,
+    "closed": 202,
     "retired": 2,
-    "wins": 62,
+    "wins": 66,
     "losses": 136,
-    "win_rate": 0.31313131313131315,
-    "mean_hold_s": 196.29889994317836,
-    "fees_eur": 26.844913,
-    "slippage_eur": 44.55882,
-    "best_trade_eur": 3.793275,
+    "win_rate": 0.32673267326732675,
+    "mean_hold_s": 193.74211985876065,
+    "fees_eur": 27.357497,
+    "slippage_eur": 45.421707,
+    "best_trade_eur": 4.582409,
     "worst_trade_eur": -20.0
   },
   "round": {
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -125.508407,
-    "closed_trades": 136,
-    "wins": 43,
+    "net_eur": -117.899362,
+    "closed_trades": 140,
+    "wins": 47,
     "losses": 93,
     "deposits_eur": 100.0
   },
@@ -50,20 +50,20 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 2471.195582151413,
+      "held_s": 3378.49458360672,
       "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794735557.1619778,
-        "retry_after": 1794735857.1619778
+        "checked_at": 1794736540.4064987,
+        "retry_after": 1794736840.4064987
       },
       "momentum": {
         "return_60s_pct": null,
         "return_180s_pct": 0.0,
         "return_300s_pct": 0.0,
-        "buy_share_h1": 0.580216
+        "buy_share_h1": 0.519953
       },
       "decision": "UNSALEABLE",
       "decision_reason": "reported zero pool liquidity"
@@ -74,14 +74,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 39261.419405698776,
+      "held_s": 40168.71840715408,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794735586.1619313,
-        "retry_after": 1794735886.1619313
+        "checked_at": 1794736491.7714188,
+        "retry_after": 1794736791.7714188
       },
       "momentum": {
         "return_60s_pct": null,
@@ -91,33 +91,45 @@
       },
       "decision": "UNSALEABLE",
       "decision_reason": "reported zero pool liquidity"
-    },
-    {
-      "symbol": "GTA$",
-      "cost_eur": 20.0,
-      "value_eur": 19.616995,
-      "unrealised_eur": -0.383005,
-      "unrealised_pct": -1.9150250000000035,
-      "held_s": 26.51642394065857,
-      "pump_fun_url": "https://pump.fun/coin/CD3ZEVDaNniyFU5FXRJSi9qFHjyFzbreXn1ambHQwd2x",
-      "mark_status": "conservative pool-model liquidation",
-      "exit_state": {
-        "classification": "AVAILABLE",
-        "reason": "pool_model_only_route_unverified",
-        "checked_at": 1794735636.6205604,
-        "retry_after": 1794735636.6205604
-      },
-      "momentum": {
-        "return_60s_pct": 0.0,
-        "return_180s_pct": 25.939722,
-        "return_300s_pct": 45.700294,
-        "buy_share_h1": 0.628423
-      },
-      "decision": "HOLD",
-      "decision_reason": null
     }
   ],
   "recent_trades": [
+    {
+      "status": "closed",
+      "ts": 1794736039.5099673,
+      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+      "symbol": "bill",
+      "net_eur": 0.32236,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 113.71320366859436
+    },
+    {
+      "status": "closed",
+      "ts": 1794736020.7348902,
+      "pump_fun_url": "https://pump.fun/coin/CD3ZEVDaNniyFU5FXRJSi9qFHjyFzbreXn1ambHQwd2x",
+      "symbol": "GTA$",
+      "net_eur": 1.092138,
+      "exit_reason": "profit target / momentum target reached before exit costs",
+      "held_s": 41.04814648628235
+    },
+    {
+      "status": "closed",
+      "ts": 1794735851.2406695,
+      "pump_fun_url": "https://pump.fun/coin/CD3ZEVDaNniyFU5FXRJSi9qFHjyFzbreXn1ambHQwd2x",
+      "symbol": "GTA$",
+      "net_eur": 1.229133,
+      "exit_reason": "profit target / momentum target reached before exit costs",
+      "held_s": 58.59543752670288
+    },
+    {
+      "status": "closed",
+      "ts": 1794735666.0021348,
+      "pump_fun_url": "https://pump.fun/coin/CD3ZEVDaNniyFU5FXRJSi9qFHjyFzbreXn1ambHQwd2x",
+      "symbol": "GTA$",
+      "net_eur": 4.582409,
+      "exit_reason": "profit target / momentum target reached before exit costs",
+      "held_s": 55.369235038757324
+    },
     {
       "status": "closed",
       "ts": 1794735622.9416566,
@@ -261,42 +273,6 @@
       "net_eur": -0.673617,
       "exit_reason": "trailing reversal from observed peak",
       "held_s": 58.904346227645874
-    },
-    {
-      "status": "closed",
-      "ts": 1794733301.6515915,
-      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
-      "symbol": "CLOCKED",
-      "net_eur": -0.421952,
-      "exit_reason": "momentum reversal across 60s and 180s windows",
-      "held_s": 41.00298023223877
-    },
-    {
-      "status": "closed",
-      "ts": 1794733084.3251157,
-      "pump_fun_url": "https://pump.fun/coin/7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
-      "symbol": "DOJE",
-      "net_eur": -0.301798,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 181.57659435272217
-    },
-    {
-      "status": "closed",
-      "ts": 1794733002.2752664,
-      "pump_fun_url": "https://pump.fun/coin/5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump",
-      "symbol": "CLOCKED",
-      "net_eur": -0.688256,
-      "exit_reason": "momentum reversal across 60s and 180s windows",
-      "held_s": 39.32651710510254
-    },
-    {
-      "status": "closed",
-      "ts": 1794732891.4749362,
-      "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
-      "symbol": "HOGE",
-      "net_eur": -0.564596,
-      "exit_reason": "trailing reversal from observed peak",
-      "held_s": 400.4151420593262
     }
   ],
   "equity": [
@@ -305,23 +281,19 @@
       "equity_eur": 100.0
     },
     {
-      "ts": 1794659820.351793,
+      "ts": 1794659880.3498635,
       "equity_eur": 100.0
     },
     {
-      "ts": 1794660120.4018686,
-      "equity_eur": 100.0
-    },
-    {
-      "ts": 1794660420.6922543,
+      "ts": 1794660240.4921298,
       "equity_eur": 97.6308
     },
     {
-      "ts": 1794660721.0877798,
+      "ts": 1794660601.113245,
       "equity_eur": 96.0517
     },
     {
-      "ts": 1794661021.5658488,
+      "ts": 1794660960.9776928,
       "equity_eur": 95.787
     },
     {
@@ -329,95 +301,79 @@
       "equity_eur": 96.1615
     },
     {
-      "ts": 1794661621.0074782,
-      "equity_eur": 92.4112
+      "ts": 1794661680.642451,
+      "equity_eur": 92.0383
     },
     {
-      "ts": 1794661921.1598794,
+      "ts": 1794662040.6159954,
       "equity_eur": 93.4164
     },
     {
-      "ts": 1794662223.516544,
-      "equity_eur": 92.6923
+      "ts": 1794662401.1759589,
+      "equity_eur": 93.095
     },
     {
-      "ts": 1794662522.5846598,
-      "equity_eur": 92.7035
-    },
-    {
-      "ts": 1794662821.102758,
-      "equity_eur": 94.665
+      "ts": 1794662760.1746047,
+      "equity_eur": 93.9753
     },
     {
       "ts": 1794663120.5608811,
       "equity_eur": 93.9462
     },
     {
-      "ts": 1794663421.11333,
-      "equity_eur": 89.2979
+      "ts": 1794663481.1899617,
+      "equity_eur": 91.4033
     },
     {
-      "ts": 1794663721.4573588,
-      "equity_eur": 89.5392
+      "ts": 1794663841.0147612,
+      "equity_eur": 88.9852
     },
     {
-      "ts": 1794664020.615402,
-      "equity_eur": 89.0154
+      "ts": 1794664200.2237709,
+      "equity_eur": 88.7083
     },
     {
-      "ts": 1794664320.4055142,
-      "equity_eur": 88.879
-    },
-    {
-      "ts": 1794664620.5927317,
-      "equity_eur": 87.8512
+      "ts": 1794664561.5710106,
+      "equity_eur": 88.2004
     },
     {
       "ts": 1794664920.9396164,
       "equity_eur": 87.5071
     },
     {
-      "ts": 1794665220.474606,
+      "ts": 1794665280.8772547,
       "equity_eur": 87.1813
     },
     {
-      "ts": 1794665520.5450602,
-      "equity_eur": 86.3478
+      "ts": 1794665640.4893148,
+      "equity_eur": 85.2004
     },
     {
-      "ts": 1794665821.9378068,
-      "equity_eur": 82.6037
+      "ts": 1794666002.2043533,
+      "equity_eur": 81.6035
     },
     {
-      "ts": 1794666120.3021307,
-      "equity_eur": 81.4314
-    },
-    {
-      "ts": 1794666420.3373878,
-      "equity_eur": 80.7614
+      "ts": 1794666361.2246323,
+      "equity_eur": 81.513
     },
     {
       "ts": 1794666722.138479,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794667020.7468648,
+      "ts": 1794667080.232577,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794667321.7638283,
+      "ts": 1794667440.660549,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794667621.0898082,
+      "ts": 1794667800.4546742,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794667921.4024725,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794668221.1728342,
+      "ts": 1794668160.3094637,
       "equity_eur": 79.2492
     },
     {
@@ -425,23 +381,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794668820.4866083,
+      "ts": 1794668880.805248,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794669121.0726912,
+      "ts": 1794669240.6789713,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794669420.2734084,
+      "ts": 1794669600.3241036,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794669720.4230459,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794670020.6202703,
+      "ts": 1794669960.7108343,
       "equity_eur": 79.2492
     },
     {
@@ -449,23 +401,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794670623.2547588,
+      "ts": 1794670681.0711696,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794670920.471813,
+      "ts": 1794671041.6057577,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794671220.745188,
+      "ts": 1794671400.7168674,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794671521.076558,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794671821.080938,
+      "ts": 1794671761.211266,
       "equity_eur": 79.2492
     },
     {
@@ -473,23 +421,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794672421.0108926,
+      "ts": 1794672481.8068004,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794672720.9844253,
+      "ts": 1794672841.9085166,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794673022.3386266,
+      "ts": 1794673200.693093,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794673320.8717482,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794673622.1588824,
+      "ts": 1794673560.5943232,
       "equity_eur": 79.2492
     },
     {
@@ -497,23 +441,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794674220.4067743,
+      "ts": 1794674281.2317553,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794674521.0601597,
+      "ts": 1794674640.2266703,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794674821.0874815,
+      "ts": 1794675000.5105352,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794675120.4196017,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794675420.229257,
+      "ts": 1794675361.6045196,
       "equity_eur": 79.2492
     },
     {
@@ -521,23 +461,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794676020.7176783,
+      "ts": 1794676080.3750849,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794676320.7418735,
+      "ts": 1794676440.2629843,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794676620.676675,
+      "ts": 1794676802.5900102,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794676920.2595303,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794677223.1231887,
+      "ts": 1794677162.149897,
       "equity_eur": 79.2492
     },
     {
@@ -545,23 +481,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794677822.5506635,
+      "ts": 1794677880.838535,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794678121.1845512,
+      "ts": 1794678241.149436,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794678422.6520991,
+      "ts": 1794678600.9166334,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794678720.3552384,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794679020.8897936,
+      "ts": 1794678961.637025,
       "equity_eur": 79.2492
     },
     {
@@ -569,23 +501,19 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794679620.6033134,
+      "ts": 1794679682.187011,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794679921.1571739,
+      "ts": 1794680040.5315506,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794680220.6334069,
+      "ts": 1794680400.8538885,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794680520.6552038,
-      "equity_eur": 79.2492
-    },
-    {
-      "ts": 1794680821.088032,
+      "ts": 1794680761.0407987,
       "equity_eur": 79.2492
     },
     {
@@ -593,71 +521,59 @@
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794681422.14371,
+      "ts": 1794681481.5874822,
       "equity_eur": 79.2492
     },
     {
-      "ts": 1794681721.7359908,
-      "equity_eur": 79.5176
+      "ts": 1794681843.887124,
+      "equity_eur": 79.0746
     },
     {
-      "ts": 1794682020.6703937,
-      "equity_eur": 80.1827
+      "ts": 1794682200.7719128,
+      "equity_eur": 79.3462
     },
     {
-      "ts": 1794682321.5120847,
-      "equity_eur": 80.023
-    },
-    {
-      "ts": 1794682620.490835,
-      "equity_eur": 79.7297
+      "ts": 1794682562.4668663,
+      "equity_eur": 79.308
     },
     {
       "ts": 1794682920.8484948,
       "equity_eur": 79.8639
     },
     {
-      "ts": 1794683221.1856103,
-      "equity_eur": 79.5094
-    },
-    {
-      "ts": 1794688381.3494303,
+      "ts": 1794688160.8603625,
       "equity_eur": 58.8273
     },
     {
-      "ts": 1794688681.0803053,
-      "equity_eur": 58.4276
+      "ts": 1794688500.6302667,
+      "equity_eur": 58.8273
     },
     {
-      "ts": 1794688980.7709846,
-      "equity_eur": 59.4325
+      "ts": 1794688860.8581884,
+      "equity_eur": 59.252
     },
     {
-      "ts": 1794689280.918761,
-      "equity_eur": 61.7875
+      "ts": 1794689221.0802057,
+      "equity_eur": 60.8914
     },
     {
       "ts": 1794689582.8601294,
       "equity_eur": 40.671
     },
     {
-      "ts": 1794689884.4256976,
+      "ts": 1794689941.0492353,
       "equity_eur": 41.1663
     },
     {
-      "ts": 1794690180.5365815,
+      "ts": 1794690300.4736679,
       "equity_eur": 38.0799
     },
     {
-      "ts": 1794690480.9654498,
+      "ts": 1794690660.3609178,
       "equity_eur": 38.0799
     },
     {
-      "ts": 1794690780.4122415,
-      "equity_eur": 37.3992
-    },
-    {
-      "ts": 1794691080.4073577,
+      "ts": 1794691020.7880197,
       "equity_eur": 37.0382
     },
     {
@@ -665,23 +581,19 @@
       "equity_eur": 36.6084
     },
     {
-      "ts": 1794691681.1492112,
-      "equity_eur": 35.9665
+      "ts": 1794691743.2857625,
+      "equity_eur": 36.3055
     },
     {
-      "ts": 1794691982.0860002,
-      "equity_eur": 35.4537
+      "ts": 1794692101.8015578,
+      "equity_eur": 34.3115
     },
     {
-      "ts": 1794692281.3665812,
-      "equity_eur": 34.1193
+      "ts": 1794692460.8776019,
+      "equity_eur": 35.01
     },
     {
-      "ts": 1794692582.4952228,
-      "equity_eur": 36.536
-    },
-    {
-      "ts": 1794692880.399929,
+      "ts": 1794692824.0966334,
       "equity_eur": 36.536
     },
     {
@@ -689,95 +601,79 @@
       "equity_eur": 35.7149
     },
     {
-      "ts": 1794693481.050301,
+      "ts": 1794693540.5031612,
       "equity_eur": 35.315
     },
     {
-      "ts": 1794693781.2474139,
-      "equity_eur": 35.315
+      "ts": 1794693901.547394,
+      "equity_eur": 35.9964
     },
     {
-      "ts": 1794694080.6531408,
-      "equity_eur": 35.379
+      "ts": 1794694260.602454,
+      "equity_eur": 35.488
     },
     {
-      "ts": 1794694382.4982097,
-      "equity_eur": 35.8945
-    },
-    {
-      "ts": 1794694680.532717,
-      "equity_eur": 34.1454
+      "ts": 1794694620.6219976,
+      "equity_eur": 34.4271
     },
     {
       "ts": 1794694981.0759678,
       "equity_eur": 33.7541
     },
     {
-      "ts": 1794695282.055852,
+      "ts": 1794695341.106783,
       "equity_eur": 34.9366
     },
     {
-      "ts": 1794695583.77971,
-      "equity_eur": 35.4134
+      "ts": 1794695702.423955,
+      "equity_eur": 35.5226
     },
     {
-      "ts": 1794695881.621258,
-      "equity_eur": 36.5678
-    },
-    {
-      "ts": 1794696181.1091492,
+      "ts": 1794696064.7103772,
       "equity_eur": 36.11
     },
     {
-      "ts": 1794696481.5291462,
-      "equity_eur": 14.2816
+      "ts": 1794696421.0045097,
+      "equity_eur": 15.3092
     },
     {
       "ts": 1794696781.0129461,
       "equity_eur": 17.4226
     },
     {
-      "ts": 1794697080.9053776,
-      "equity_eur": 22.1019
+      "ts": 1794697141.6085858,
+      "equity_eur": 20.658
     },
     {
-      "ts": 1794697381.1816194,
-      "equity_eur": 20.3118
+      "ts": 1794697500.55666,
+      "equity_eur": 19.9498
     },
     {
-      "ts": 1794697684.5666947,
-      "equity_eur": 18.7507
+      "ts": 1794697860.90918,
+      "equity_eur": 17.2233
     },
     {
-      "ts": 1794697981.6082032,
-      "equity_eur": 16.8911
-    },
-    {
-      "ts": 1794698280.2585084,
-      "equity_eur": 17.6887
+      "ts": 1794698220.7406576,
+      "equity_eur": 18.5225
     },
     {
       "ts": 1794698581.3308377,
       "equity_eur": 16.2478
     },
     {
-      "ts": 1794698882.731403,
-      "equity_eur": 15.735
+      "ts": 1794698941.5385215,
+      "equity_eur": 15.6557
     },
     {
-      "ts": 1794699180.57825,
-      "equity_eur": 15.8596
+      "ts": 1794699301.3498213,
+      "equity_eur": 16.0408
     },
     {
-      "ts": 1794699481.521032,
-      "equity_eur": 16.2447
+      "ts": 1794699660.6704652,
+      "equity_eur": 15.5415
     },
     {
-      "ts": 1794699780.247832,
-      "equity_eur": 14.2974
-    },
-    {
-      "ts": 1794700080.8325477,
+      "ts": 1794700021.849505,
       "equity_eur": 11.1935
     },
     {
@@ -785,23 +681,19 @@
       "equity_eur": 11.1153
     },
     {
-      "ts": 1794700681.5200832,
-      "equity_eur": 10.5521
+      "ts": 1794700740.9373147,
+      "equity_eur": 10.524
     },
     {
-      "ts": 1794700981.5349884,
-      "equity_eur": 9.4625
+      "ts": 1794701101.761511,
+      "equity_eur": 9.8243
     },
     {
-      "ts": 1794701281.439699,
+      "ts": 1794701462.8827004,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794701581.0567777,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794701886.5429819,
+      "ts": 1794701823.7157638,
       "equity_eur": 2.2015
     },
     {
@@ -809,23 +701,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794702480.3689017,
+      "ts": 1794702544.4144402,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794702782.135097,
+      "ts": 1794702901.960205,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794703082.6669593,
+      "ts": 1794703260.8936207,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794703380.4886587,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794703683.5773392,
+      "ts": 1794703620.4511175,
       "equity_eur": 2.2015
     },
     {
@@ -833,23 +721,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794704280.446601,
+      "ts": 1794704341.3369133,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794704580.64654,
+      "ts": 1794704702.1400802,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794704882.7367332,
+      "ts": 1794705060.50049,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794705180.2577095,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794705480.8785748,
+      "ts": 1794705422.2804134,
       "equity_eur": 2.2015
     },
     {
@@ -857,23 +741,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794706081.5423834,
+      "ts": 1794706143.269087,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794706383.6984994,
+      "ts": 1794706500.443347,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794706681.3806417,
+      "ts": 1794706860.6301894,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794706982.2848055,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794707282.3206542,
+      "ts": 1794707221.2506545,
       "equity_eur": 2.2015
     },
     {
@@ -881,23 +761,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794707881.7667096,
+      "ts": 1794707943.1159353,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794708180.8273268,
+      "ts": 1794708300.3274817,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794708481.2168334,
+      "ts": 1794708660.951473,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794708781.2528434,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794709081.0116372,
+      "ts": 1794709020.3307261,
       "equity_eur": 2.2015
     },
     {
@@ -905,23 +781,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794709685.396697,
+      "ts": 1794709741.7203274,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794709980.6980405,
+      "ts": 1794710100.5912547,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794710283.166828,
+      "ts": 1794710463.8163645,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794710581.2023432,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794710884.7395375,
+      "ts": 1794710824.5525625,
       "equity_eur": 2.2015
     },
     {
@@ -929,23 +801,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794711481.4473534,
+      "ts": 1794711540.4045556,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794711781.587839,
+      "ts": 1794711901.038744,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794712080.2776883,
+      "ts": 1794712260.5340788,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794712381.2652602,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794712682.904423,
+      "ts": 1794712621.8744009,
       "equity_eur": 2.2015
     },
     {
@@ -953,23 +821,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794713281.0795712,
+      "ts": 1794713340.7511978,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794713580.6095731,
+      "ts": 1794713702.2710145,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794713882.2585804,
+      "ts": 1794714062.0254817,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794714180.5340757,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794714482.7351637,
+      "ts": 1794714421.1817887,
       "equity_eur": 2.2015
     },
     {
@@ -977,23 +841,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794715080.8815832,
+      "ts": 1794715144.704021,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794715381.1987095,
+      "ts": 1794715504.1860058,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794715683.6536887,
+      "ts": 1794715863.4724102,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794715980.9552176,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794716280.3781726,
+      "ts": 1794716224.5088873,
       "equity_eur": 2.2015
     },
     {
@@ -1001,23 +861,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794716882.142255,
+      "ts": 1794716941.3284779,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794717183.3636923,
+      "ts": 1794717300.7988672,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794717482.9100833,
+      "ts": 1794717661.758259,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794717781.4785666,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794718080.7265208,
+      "ts": 1794718020.3732603,
       "equity_eur": 2.2015
     },
     {
@@ -1025,23 +881,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794718683.0064802,
+      "ts": 1794718741.148327,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794718980.6756485,
+      "ts": 1794719100.7492924,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794719281.6881459,
+      "ts": 1794719460.7165809,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794719581.32024,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794719881.7980628,
+      "ts": 1794719822.081374,
       "equity_eur": 2.2015
     },
     {
@@ -1049,23 +901,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794720481.2814586,
+      "ts": 1794720541.4311771,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794720784.7785852,
+      "ts": 1794720901.687848,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794721083.7791843,
+      "ts": 1794721260.7489226,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794721380.3261063,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794721680.254578,
+      "ts": 1794721625.735037,
       "equity_eur": 2.2015
     },
     {
@@ -1073,23 +921,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794722280.3184786,
+      "ts": 1794722341.0630178,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794722583.2580075,
+      "ts": 1794722703.8729405,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794722881.5225976,
+      "ts": 1794723061.2426212,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794723181.9237254,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794723480.4481494,
+      "ts": 1794723420.9524727,
       "equity_eur": 2.2015
     },
     {
@@ -1097,23 +941,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794724085.518263,
+      "ts": 1794724145.0736053,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794724384.28947,
+      "ts": 1794724502.5059288,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794724681.4758132,
+      "ts": 1794724861.7973452,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794724981.6536913,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794725280.9823925,
+      "ts": 1794725221.000827,
       "equity_eur": 2.2015
     },
     {
@@ -1121,23 +961,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794725883.9525654,
+      "ts": 1794725942.5112143,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794726181.9949458,
+      "ts": 1794726300.5206556,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794726483.3883955,
+      "ts": 1794726660.6707723,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794726780.6388917,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794727085.9609072,
+      "ts": 1794727021.2093403,
       "equity_eur": 2.2015
     },
     {
@@ -1145,23 +981,19 @@
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794727680.4769104,
+      "ts": 1794727741.416423,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794727980.4736643,
+      "ts": 1794728100.5389278,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794728281.5806122,
+      "ts": 1794728460.5778933,
       "equity_eur": 2.2015
     },
     {
-      "ts": 1794728580.8265376,
-      "equity_eur": 2.2015
-    },
-    {
-      "ts": 1794728885.622006,
+      "ts": 1794728821.3098023,
       "equity_eur": 2.2015
     },
     {
@@ -1169,71 +1001,59 @@
       "equity_eur": 79.826
     },
     {
-      "ts": 1794729485.8215353,
-      "equity_eur": 60.1817
+      "ts": 1794729541.0120366,
+      "equity_eur": 99.4626
     },
     {
-      "ts": 1794729781.0722404,
-      "equity_eur": 100.3866
+      "ts": 1794729902.3028047,
+      "equity_eur": 80.4455
     },
     {
-      "ts": 1794730085.3081872,
-      "equity_eur": 88.2443
+      "ts": 1794730262.5504766,
+      "equity_eur": 87.862
     },
     {
-      "ts": 1794730382.4979343,
-      "equity_eur": 82.6071
-    },
-    {
-      "ts": 1794730681.2190628,
-      "equity_eur": 84.3528
+      "ts": 1794730628.038513,
+      "equity_eur": 84.3704
     },
     {
       "ts": 1794730986.9094038,
       "equity_eur": 82.3325
     },
     {
-      "ts": 1794731285.8337333,
-      "equity_eur": 84.3457
+      "ts": 1794731347.8744383,
+      "equity_eur": 87.1874
     },
     {
-      "ts": 1794731583.6778846,
-      "equity_eur": 87.0434
+      "ts": 1794731700.6429713,
+      "equity_eur": 87.3789
     },
     {
-      "ts": 1794731881.4689171,
-      "equity_eur": 86.3935
+      "ts": 1794732066.111116,
+      "equity_eur": 85.9379
     },
     {
-      "ts": 1794732181.155371,
-      "equity_eur": 86.7197
-    },
-    {
-      "ts": 1794732486.4756324,
-      "equity_eur": 84.8124
+      "ts": 1794732425.900621,
+      "equity_eur": 85.1809
     },
     {
       "ts": 1794732781.095192,
       "equity_eur": 84.2211
     },
     {
-      "ts": 1794733084.5769758,
+      "ts": 1794733146.131198,
       "equity_eur": 82.7929
     },
     {
-      "ts": 1794733381.220164,
-      "equity_eur": 62.3709
+      "ts": 1794733500.5770822,
+      "equity_eur": 61.6463
     },
     {
-      "ts": 1794733683.223098,
-      "equity_eur": 60.9431
+      "ts": 1794733862.9400725,
+      "equity_eur": 60.2861
     },
     {
-      "ts": 1794733983.3565335,
-      "equity_eur": 60.3289
-    },
-    {
-      "ts": 1794734281.6093163,
+      "ts": 1794734220.4881804,
       "equity_eur": 59.9869
     },
     {
@@ -1241,112 +1061,120 @@
       "equity_eur": 58.3079
     },
     {
-      "ts": 1794734881.2011056,
+      "ts": 1794734940.8831687,
       "equity_eur": 57.0723
     },
     {
-      "ts": 1794735182.0506546,
-      "equity_eur": 56.7455
+      "ts": 1794735300.8388245,
+      "equity_eur": 56.2739
     },
     {
-      "ts": 1794735482.8012226,
-      "equity_eur": 56.9462
+      "ts": 1794735662.746172,
+      "equity_eur": 56.66
     },
     {
-      "ts": 1794735601.1879194,
-      "equity_eur": 56.3733
+      "ts": 1794736020.9819353,
+      "equity_eur": 61.3498
+    },
+    {
+      "ts": 1794736380.794678,
+      "equity_eur": 61.3498
+    },
+    {
+      "ts": 1794736500.9683573,
+      "equity_eur": 61.3498
     }
   ],
   "radar": [
     {
-      "symbol": "GTA$",
-      "price_usd": 7.438e-05,
-      "liquidity_usd": 37868.42,
-      "volume_h1_usd": 386188.4,
-      "buy_share": 0.6284,
-      "price_change_m5_pct": 44.35,
-      "price_change_h1_pct": 1446.0
+      "symbol": "HOGE",
+      "price_usd": 1.165e-05,
+      "liquidity_usd": 16719.5,
+      "volume_h1_usd": 105108.24,
+      "buy_share": 0.5735,
+      "price_change_m5_pct": 56.98,
+      "price_change_h1_pct": 99.48
     },
     {
-      "symbol": "bill",
-      "price_usd": 6.189e-07,
-      "liquidity_usd": 105408.37,
-      "volume_h1_usd": 182928.89,
-      "buy_share": 0.6849,
-      "price_change_m5_pct": 33.75,
-      "price_change_h1_pct": 33.75
+      "symbol": " NUREMBERG",
+      "price_usd": 2.418e-05,
+      "liquidity_usd": 37375.93,
+      "volume_h1_usd": 35806.72,
+      "buy_share": 0.846,
+      "price_change_m5_pct": 17.04,
+      "price_change_h1_pct": 67.61
     },
     {
-      "symbol": "哈基仙人",
-      "price_usd": 2e-12,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 352846.74,
-      "buy_share": 0.7803,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -100.0
+      "symbol": "dragoncat",
+      "price_usd": 9.31e-06,
+      "liquidity_usd": 5668.24,
+      "volume_h1_usd": 26776.76,
+      "buy_share": 0.5919,
+      "price_change_m5_pct": 34.09,
+      "price_change_h1_pct": -67.93
     },
     {
-      "symbol": "NEX Ai",
-      "price_usd": 4.717e-05,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 151998.16,
-      "buy_share": 0.8351,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 189.0
+      "symbol": "WANTED",
+      "price_usd": 6.022e-05,
+      "liquidity_usd": 100171.39,
+      "volume_h1_usd": 376544.01,
+      "buy_share": 0.6785,
+      "price_change_m5_pct": 10.61,
+      "price_change_h1_pct": 42.02
     },
     {
-      "symbol": "ZACSIR",
-      "price_usd": 0.01943,
-      "liquidity_usd": 101514.81,
-      "volume_h1_usd": 10708.86,
-      "buy_share": 0.815,
-      "price_change_m5_pct": 18.67,
-      "price_change_h1_pct": 30.91
-    },
-    {
-      "symbol": "Mentat",
-      "price_usd": 8.776e-07,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 1903752.43,
-      "buy_share": 0.6687,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 44.06
-    },
-    {
-      "symbol": "DacityCoin",
-      "price_usd": 0.0001362,
-      "liquidity_usd": 229646.61,
-      "volume_h1_usd": 3721100.5,
-      "buy_share": 0.6244,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 13.56
+      "symbol": "ニャジラ",
+      "price_usd": 1.269e-05,
+      "liquidity_usd": 17780.46,
+      "volume_h1_usd": 248558.18,
+      "buy_share": 0.6354,
+      "price_change_m5_pct": 17.32,
+      "price_change_h1_pct": 116.0
     },
     {
       "symbol": "mihao",
-      "price_usd": 8.176e-07,
-      "liquidity_usd": 123609.95,
-      "volume_h1_usd": 2654265.27,
-      "buy_share": 0.613,
-      "price_change_m5_pct": 1.71,
-      "price_change_h1_pct": 90.73
+      "price_usd": 8.358e-07,
+      "liquidity_usd": 128909.37,
+      "volume_h1_usd": 4247706.52,
+      "buy_share": 0.6087,
+      "price_change_m5_pct": 3.71,
+      "price_change_h1_pct": 94.98
     },
     {
-      "symbol": "Mentat",
-      "price_usd": 8.687e-07,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 2250688.12,
-      "buy_share": 0.6206,
+      "symbol": "bill",
+      "price_usd": 8.095e-07,
+      "liquidity_usd": 123586.22,
+      "volume_h1_usd": 1380287.45,
+      "buy_share": 0.6409,
+      "price_change_m5_pct": 3.12,
+      "price_change_h1_pct": 74.95
+    },
+    {
+      "symbol": "DacityCoin",
+      "price_usd": 0.0001349,
+      "liquidity_usd": 227949.22,
+      "volume_h1_usd": 2463048.62,
+      "buy_share": 0.6243,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 33.71
+      "price_change_h1_pct": 7.53
+    },
+    {
+      "symbol": "Riffar",
+      "price_usd": 0.01491,
+      "liquidity_usd": 0.1,
+      "volume_h1_usd": 19530.25,
+      "buy_share": 0.7579,
+      "price_change_m5_pct": 13.73,
+      "price_change_h1_pct": 34.75
     },
     {
       "symbol": "Mentat",
       "price_usd": 8.551e-07,
       "liquidity_usd": 0.0,
-      "volume_h1_usd": 2672526.22,
-      "buy_share": 0.6117,
+      "volume_h1_usd": 1412143.93,
+      "buy_share": 0.6029,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 52.32
+      "price_change_h1_pct": 13.65
     }
   ],
   "lessons": [
@@ -1366,6 +1194,34 @@
     },
     {
       "symbol": "bill",
+      "observation": "Positive modeled outcome",
+      "net_eur": 0.32236,
+      "holding_s": 113.71320366859436,
+      "exit": "trailing reversal from observed peak"
+    },
+    {
+      "symbol": "GTA$",
+      "observation": "Positive modeled outcome",
+      "net_eur": 1.092138,
+      "holding_s": 41.04814648628235,
+      "exit": "profit target / momentum target reached before exit costs"
+    },
+    {
+      "symbol": "GTA$",
+      "observation": "Positive modeled outcome",
+      "net_eur": 1.229133,
+      "holding_s": 58.59543752670288,
+      "exit": "profit target / momentum target reached before exit costs"
+    },
+    {
+      "symbol": "GTA$",
+      "observation": "Positive modeled outcome",
+      "net_eur": 4.582409,
+      "holding_s": 55.369235038757324,
+      "exit": "profit target / momentum target reached before exit costs"
+    },
+    {
+      "symbol": "bill",
       "observation": "Negative modeled outcome",
       "net_eur": -2.971668,
       "holding_s": 65.56935429573059,
@@ -1377,34 +1233,6 @@
       "net_eur": 2.194456,
       "holding_s": 66.2727460861206,
       "exit": "profit target / momentum target reached before exit costs"
-    },
-    {
-      "symbol": "HOGE",
-      "observation": "Negative modeled outcome",
-      "net_eur": -1.047618,
-      "holding_s": 40.71653199195862,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "DOJE",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.515122,
-      "holding_s": 216.7020332813263,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "bill",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.608597,
-      "holding_s": 46.16694450378418,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "DOJE",
-      "observation": "Positive modeled outcome",
-      "net_eur": 0.064091,
-      "holding_s": 401.111784696579,
-      "exit": "trailing reversal from observed peak"
     }
   ],
   "improvements": [
@@ -1412,12 +1240,6 @@
       "parameter": "hold_s",
       "value": 30,
       "hypothesis": "Observed holding duration exceeds the 60s research target; test a shorter horizon on unseen data",
-      "promotion": "Not established from this batch"
-    },
-    {
-      "parameter": "stop_loss_pct",
-      "value": 2,
-      "hypothesis": "Mixed outcomes: test a smaller downside trigger; execution gaps remain possible",
       "promotion": "Not established from this batch"
     }
   ],
