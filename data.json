@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794779281.6452096,
+  "generated_at": 1794780198.6564424,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -8,11 +8,11 @@
     "tagline": "A Solana paper-trading experiment, observed honestly."
   },
   "status": {
-    "label": "ENGINE OFFLINE",
-    "tone": "offline",
-    "engine_online": false,
-    "market_data_fresh": false,
-    "updated_age_s": 60.1
+    "label": "LIVE PAPER MODEL",
+    "tone": "live",
+    "engine_online": true,
+    "market_data_fresh": true,
+    "updated_age_s": 2.6
   },
   "account": {
     "starting_eur": 100.0,
@@ -50,14 +50,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 46115.69146800041,
+      "held_s": 47032.70270085335,
       "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794775389.4488518,
-        "retry_after": 1794775689.4488518
+        "checked_at": 1794780149.9849799,
+        "retry_after": 1794780449.9849799
       },
       "momentum": {
         "return_60s_pct": null,
@@ -74,14 +74,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 82905.91529154778,
+      "held_s": 83822.92652440071,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
         "classification": "UNSALEABLE",
         "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794775389.4488518,
-        "retry_after": 1794775689.4488518
+        "checked_at": 1794780149.9849799,
+        "retry_after": 1794780449.9849799
       },
       "momentum": {
         "return_60s_pct": null,
@@ -276,18 +276,6 @@
     }
   ],
   "equity": [
-    {
-      "ts": 1794692941.0692956,
-      "equity_eur": 36.536
-    },
-    {
-      "ts": 1794693242.022458,
-      "equity_eur": 35.7149
-    },
-    {
-      "ts": 1794693540.5031612,
-      "equity_eur": 35.315
-    },
     {
       "ts": 1794693841.4208837,
       "equity_eur": 34.9251
@@ -1079,98 +1067,110 @@
     {
       "ts": 1794775381.1277459,
       "equity_eur": 53.9475
+    },
+    {
+      "ts": 1794779826.311766,
+      "equity_eur": 53.9475
+    },
+    {
+      "ts": 1794780126.3013813,
+      "equity_eur": 53.9475
+    },
+    {
+      "ts": 1794780185.5012326,
+      "equity_eur": 53.9475
     }
   ],
   "radar": [
     {
-      "symbol": "FRANK",
-      "price_usd": 5.639e-05,
-      "liquidity_usd": 16463.24,
-      "volume_h1_usd": 84854.71,
-      "buy_share": 0.5719,
-      "price_change_m5_pct": 88.94,
-      "price_change_h1_pct": 88.94
+      "symbol": "Retire",
+      "price_usd": 0.0001695,
+      "liquidity_usd": 28402.35,
+      "volume_h1_usd": 86695.88,
+      "buy_share": 0.8442,
+      "price_change_m5_pct": 301.0,
+      "price_change_h1_pct": 368.0
     },
     {
-      "symbol": "GTA",
-      "price_usd": 0.0001199,
-      "liquidity_usd": 23795.7,
-      "volume_h1_usd": 198087.41,
-      "buy_share": 0.8283,
-      "price_change_m5_pct": 19.42,
-      "price_change_h1_pct": 248.0
+      "symbol": "TITTYVERSE",
+      "price_usd": 0.0001207,
+      "liquidity_usd": 23752.35,
+      "volume_h1_usd": 127079.54,
+      "buy_share": 0.7812,
+      "price_change_m5_pct": 35.14,
+      "price_change_h1_pct": 240.0
     },
     {
-      "symbol": "BFS",
-      "price_usd": 4.409e-05,
-      "liquidity_usd": 17627.13,
-      "volume_h1_usd": 30731.42,
-      "buy_share": 0.5418,
-      "price_change_m5_pct": 52.31,
-      "price_change_h1_pct": 26.82
+      "symbol": "JENSEN",
+      "price_usd": 1.894e-05,
+      "liquidity_usd": 32961.16,
+      "volume_h1_usd": 11816.17,
+      "buy_share": 0.865,
+      "price_change_m5_pct": 27.73,
+      "price_change_h1_pct": 31.76
     },
     {
-      "symbol": "Emojis",
-      "price_usd": 5.806e-07,
-      "liquidity_usd": 93872.84,
-      "volume_h1_usd": 291422.96,
-      "buy_share": 0.6458,
-      "price_change_m5_pct": 21.63,
-      "price_change_h1_pct": 49.46
+      "symbol": "BJB",
+      "price_usd": 0.001099,
+      "liquidity_usd": 74927.1,
+      "volume_h1_usd": 580348.55,
+      "buy_share": 0.7506,
+      "price_change_m5_pct": 11.74,
+      "price_change_h1_pct": 2678.0
     },
     {
-      "symbol": "ANT",
-      "price_usd": 0.0001143,
-      "liquidity_usd": 23369.26,
-      "volume_h1_usd": 198580.79,
-      "buy_share": 0.8447,
-      "price_change_m5_pct": -11.59,
-      "price_change_h1_pct": 0.7
-    },
-    {
-      "symbol": "Emojis",
-      "price_usd": 5.601e-07,
-      "liquidity_usd": 99987.17,
-      "volume_h1_usd": 30966.57,
-      "buy_share": 0.7415,
-      "price_change_m5_pct": 21.33,
-      "price_change_h1_pct": 21.33
-    },
-    {
-      "symbol": "GTAVICAT",
-      "price_usd": 1.837e-05,
-      "liquidity_usd": 32575.88,
-      "volume_h1_usd": 29816.99,
-      "buy_share": 0.8697,
-      "price_change_m5_pct": 9.49,
-      "price_change_h1_pct": 22.15
-    },
-    {
-      "symbol": "HENSEN",
-      "price_usd": 3.299e-05,
-      "liquidity_usd": 11895.71,
-      "volume_h1_usd": 115937.6,
-      "buy_share": 0.8369,
-      "price_change_m5_pct": -31.89,
-      "price_change_h1_pct": -8.19
+      "symbol": "Brian",
+      "price_usd": 0.0001737,
+      "liquidity_usd": 29029.27,
+      "volume_h1_usd": 175186.05,
+      "buy_share": 0.8982,
+      "price_change_m5_pct": -15.66,
+      "price_change_h1_pct": -9.43
     },
     {
       "symbol": "VICE",
-      "price_usd": 0.0001624,
-      "liquidity_usd": 27732.17,
-      "volume_h1_usd": 157422.04,
-      "buy_share": 0.7673,
-      "price_change_m5_pct": 4.56,
-      "price_change_h1_pct": 355.0
+      "price_usd": 0.0001662,
+      "liquidity_usd": 28442.0,
+      "volume_h1_usd": 122075.52,
+      "buy_share": 0.8303,
+      "price_change_m5_pct": -12.82,
+      "price_change_h1_pct": 36.98
     },
     {
-      "symbol": "paperdog",
-      "price_usd": 7.766e-05,
-      "liquidity_usd": 18725.56,
-      "volume_h1_usd": 18937.89,
-      "buy_share": 0.5057,
-      "price_change_m5_pct": 39.01,
-      "price_change_h1_pct": 174.0
+      "symbol": "GTACOIN",
+      "price_usd": 1.052e-05,
+      "liquidity_usd": 7636.85,
+      "volume_h1_usd": 137733.65,
+      "buy_share": 0.5327,
+      "price_change_m5_pct": 22.85,
+      "price_change_h1_pct": -76.31
+    },
+    {
+      "symbol": "Anthropig",
+      "price_usd": 0.0006837,
+      "liquidity_usd": 59480.42,
+      "volume_h1_usd": 64797.93,
+      "buy_share": 0.776,
+      "price_change_m5_pct": 0.49,
+      "price_change_h1_pct": 6.68
+    },
+    {
+      "symbol": "Emojis",
+      "price_usd": 9.088e-07,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 3378768.43,
+      "buy_share": 0.5534,
+      "price_change_m5_pct": 0.0,
+      "price_change_h1_pct": 10.1
+    },
+    {
+      "symbol": "rockstar",
+      "price_usd": 0.0006407,
+      "liquidity_usd": 76817.06,
+      "volume_h1_usd": 233580.02,
+      "buy_share": 0.6455,
+      "price_change_m5_pct": -8.51,
+      "price_change_h1_pct": 31.47
     }
   ],
   "lessons": [
