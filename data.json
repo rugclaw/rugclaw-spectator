@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794743790.844985,
+  "generated_at": 1794744700.4822333,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,24 +12,24 @@
     "tone": "live",
     "engine_online": true,
     "market_data_fresh": true,
-    "updated_age_s": 2.2
+    "updated_age_s": 1.7
   },
   "account": {
     "starting_eur": 100.0,
-    "equity_eur": 53.994141,
-    "cash_eur": 33.994141,
-    "realised_eur": -106.005859,
+    "equity_eur": 53.947479,
+    "cash_eur": 53.947479,
+    "realised_eur": -106.052521,
     "owner_deposits_eur": 100.0,
-    "roi_pct": -53.0029295,
+    "roi_pct": -53.0262605,
     "open": 2,
-    "closed": 217,
+    "closed": 219,
     "retired": 2,
-    "wins": 69,
-    "losses": 148,
-    "win_rate": 0.31797235023041476,
-    "mean_hold_s": 186.12897577373664,
-    "fees_eur": 29.438515,
-    "slippage_eur": 48.876995,
+    "wins": 70,
+    "losses": 149,
+    "win_rate": 0.319634703196347,
+    "mean_hold_s": 185.75960488950824,
+    "fees_eur": 29.721804,
+    "slippage_eur": 49.339553,
     "best_trade_eur": 4.582409,
     "worst_trade_eur": -20.0
   },
@@ -37,10 +37,10 @@
     "number": 1,
     "status": "active",
     "started": 1794681525.101562,
-    "net_eur": -125.255014,
-    "closed_trades": 155,
-    "wins": 50,
-    "losses": 105,
+    "net_eur": -125.301676,
+    "closed_trades": 157,
+    "wins": 51,
+    "losses": 106,
     "deposits_eur": 100.0
   },
   "positions": [
@@ -50,14 +50,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 10624.891243457794,
+      "held_s": 11534.528491735458,
       "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
-      "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
+      "mark_status": "UNRESOLVED / zero conservative mark; route unverified",
       "exit_state": {
-        "classification": "UNSALEABLE",
-        "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794743788.3580115,
-        "retry_after": 1794744088.3580115
+        "classification": "UNRESOLVED",
+        "reason": "market_data_stale",
+        "checked_at": 1794744696.6699953,
+        "retry_after": 1794744756.6699953
       },
       "momentum": {
         "return_60s_pct": null,
@@ -65,8 +65,8 @@
         "return_300s_pct": null,
         "buy_share_h1": null
       },
-      "decision": "UNSALEABLE",
-      "decision_reason": "reported zero pool liquidity"
+      "decision": "UNRESOLVED",
+      "decision_reason": "market data stale"
     },
     {
       "symbol": "JENSEN",
@@ -74,14 +74,14 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 47415.11506700516,
+      "held_s": 48324.75231528282,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
-      "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
+      "mark_status": "UNRESOLVED / zero conservative mark; route unverified",
       "exit_state": {
-        "classification": "UNSALEABLE",
-        "reason": "reported_zero_pool_liquidity",
-        "checked_at": 1794743788.3580115,
-        "retry_after": 1794744088.3580115
+        "classification": "UNRESOLVED",
+        "reason": "market_data_stale",
+        "checked_at": 1794744696.6699953,
+        "retry_after": 1794744756.6699953
       },
       "momentum": {
         "return_60s_pct": null,
@@ -89,11 +89,29 @@
         "return_300s_pct": null,
         "buy_share_h1": null
       },
-      "decision": "UNSALEABLE",
-      "decision_reason": "reported zero pool liquidity"
+      "decision": "UNRESOLVED",
+      "decision_reason": "market data stale"
     }
   ],
   "recent_trades": [
+    {
+      "status": "closed",
+      "ts": 1794744219.0909407,
+      "pump_fun_url": "https://pump.fun/coin/FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+      "symbol": "Socks",
+      "net_eur": 0.855596,
+      "exit_reason": "profit target / momentum target reached before exit costs",
+      "held_s": 157.55435252189636
+    },
+    {
+      "status": "closed",
+      "ts": 1794743931.7766607,
+      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+      "symbol": "bill",
+      "net_eur": -0.902258,
+      "exit_reason": "trailing reversal from observed peak",
+      "held_s": 133.81137537956238
+    },
     {
       "status": "closed",
       "ts": 1794743577.1955929,
@@ -255,24 +273,6 @@
       "net_eur": 1.229133,
       "exit_reason": "profit target / momentum target reached before exit costs",
       "held_s": 58.59543752670288
-    },
-    {
-      "status": "closed",
-      "ts": 1794735666.0021348,
-      "pump_fun_url": "https://pump.fun/coin/CD3ZEVDaNniyFU5FXRJSi9qFHjyFzbreXn1ambHQwd2x",
-      "symbol": "GTA$",
-      "net_eur": 4.582409,
-      "exit_reason": "profit target / momentum target reached before exit costs",
-      "held_s": 55.369235038757324
-    },
-    {
-      "status": "closed",
-      "ts": 1794735622.9416566,
-      "pump_fun_url": "https://pump.fun/coin/85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
-      "symbol": "bill",
-      "net_eur": -2.971668,
-      "exit_reason": "adverse stop / momentum failure",
-      "held_s": 65.56935429573059
     }
   ],
   "equity": [
@@ -1161,37 +1161,90 @@
       "equity_eur": 53.9941
     },
     {
-      "ts": 1794743767.6357412,
-      "equity_eur": 53.9941
+      "ts": 1794743944.022724,
+      "equity_eur": 53.0919
+    },
+    {
+      "ts": 1794744302.1293736,
+      "equity_eur": 53.9475
+    },
+    {
+      "ts": 1794744661.6504931,
+      "equity_eur": 53.9475
     }
   ],
   "radar": [
     {
+      "symbol": "BLG",
+      "price_usd": 2.431e-05,
+      "liquidity_usd": 37519.97,
+      "volume_h1_usd": 27859.06,
+      "buy_share": 0.8627,
+      "price_change_m5_pct": 21.35,
+      "price_change_h1_pct": 51.96
+    },
+    {
       "symbol": "哈基仙人",
-      "price_usd": 2.406e-05,
-      "liquidity_usd": 37346.1,
-      "volume_h1_usd": 30368.85,
-      "buy_share": 0.8651,
-      "price_change_m5_pct": 38.62,
-      "price_change_h1_pct": 66.18
+      "price_usd": 3.147e-05,
+      "liquidity_usd": 0.01,
+      "volume_h1_usd": 87410.69,
+      "buy_share": 0.8718,
+      "price_change_m5_pct": 11.01,
+      "price_change_h1_pct": 117.0
+    },
+    {
+      "symbol": "MBGA",
+      "price_usd": 5.779e-07,
+      "liquidity_usd": 100144.89,
+      "volume_h1_usd": 78540.74,
+      "buy_share": 0.6742,
+      "price_change_m5_pct": 27.75,
+      "price_change_h1_pct": 27.75
+    },
+    {
+      "symbol": "JENSEN",
+      "price_usd": 6.915e-05,
+      "liquidity_usd": 17509.17,
+      "volume_h1_usd": 11087.57,
+      "buy_share": 0.5067,
+      "price_change_m5_pct": 50.26,
+      "price_change_h1_pct": 128.0
+    },
+    {
+      "symbol": "Socks",
+      "price_usd": 8.179e-06,
+      "liquidity_usd": 13825.59,
+      "volume_h1_usd": 33172.33,
+      "buy_share": 0.5541,
+      "price_change_m5_pct": 39.68,
+      "price_change_h1_pct": 39.68
     },
     {
       "symbol": "BLG",
-      "price_usd": 3.996e-05,
-      "liquidity_usd": 48675.48,
-      "volume_h1_usd": 179727.88,
-      "buy_share": 0.8003,
-      "price_change_m5_pct": 15.31,
-      "price_change_h1_pct": 150.0
+      "price_usd": 1.526e-06,
+      "liquidity_usd": 0.0,
+      "volume_h1_usd": 232575.47,
+      "buy_share": 0.7704,
+      "price_change_m5_pct": 0.0,
+      "price_change_h1_pct": -90.46
     },
     {
-      "symbol": "MORNING",
-      "price_usd": 8.333e-05,
-      "liquidity_usd": 71155.45,
-      "volume_h1_usd": 491867.72,
-      "buy_share": 0.7758,
-      "price_change_m5_pct": 4.46,
-      "price_change_h1_pct": 478.0
+      "symbol": "WANTED",
+      "price_usd": 0.0007339,
+      "liquidity_usd": 62398.98,
+      "volume_h1_usd": 61864.25,
+      "buy_share": 0.7953,
+      "price_change_m5_pct": 6.03,
+      "price_change_h1_pct": -42.34
+    },
+    {
+      "symbol": "BLG ",
+      "price_usd": 1.674e-05,
+      "liquidity_usd": 31090.18,
+      "volume_h1_usd": 4790.63,
+      "buy_share": 0.8884,
+      "price_change_m5_pct": 14.12,
+      "price_change_h1_pct": 14.12
     },
     {
       "symbol": "Socks",
@@ -1199,62 +1252,17 @@
       "liquidity_usd": 0.0,
       "volume_h1_usd": 3051882.53,
       "buy_share": 0.616,
-      "price_change_m5_pct": 1.89,
-      "price_change_h1_pct": 93.69
-    },
-    {
-      "symbol": "bill",
-      "price_usd": 2.946e-05,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 43132.46,
-      "buy_share": 0.8715,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 75.74
+      "price_change_h1_pct": 93.69
     },
     {
       "symbol": "Democat",
       "price_usd": 4.345e-05,
       "liquidity_usd": 0.0,
-      "volume_h1_usd": 110312.53,
-      "buy_share": 0.795,
+      "volume_h1_usd": 81148.54,
+      "buy_share": 0.7417,
       "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": 200.0
-    },
-    {
-      "symbol": "WANTED",
-      "price_usd": 0.0008028,
-      "liquidity_usd": 65469.2,
-      "volume_h1_usd": 58806.49,
-      "buy_share": 0.7783,
-      "price_change_m5_pct": 4.98,
-      "price_change_h1_pct": -33.53
-    },
-    {
-      "symbol": "MORNING",
-      "price_usd": 2.781e-08,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 27009.43,
-      "buy_share": 0.8663,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -99.85
-    },
-    {
-      "symbol": "Socks",
-      "price_usd": 3.049e-09,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 535277.7,
-      "buy_share": 0.6508,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -99.3
-    },
-    {
-      "symbol": "JUMP",
-      "price_usd": 4.983e-08,
-      "liquidity_usd": 0.0,
-      "volume_h1_usd": 12228.76,
-      "buy_share": 0.8854,
-      "price_change_m5_pct": 0.0,
-      "price_change_h1_pct": -99.66
+      "price_change_h1_pct": 78.01
     }
   ],
   "lessons": [
@@ -1271,6 +1279,20 @@
       "net_eur": -20.0,
       "holding_s": null,
       "exit": "SUSPECTED RUG / UNSALEABLE; conservative write-down, no sale"
+    },
+    {
+      "symbol": "Socks",
+      "observation": "Positive modeled outcome",
+      "net_eur": 0.855596,
+      "holding_s": 157.55435252189636,
+      "exit": "profit target / momentum target reached before exit costs"
+    },
+    {
+      "symbol": "bill",
+      "observation": "Negative modeled outcome",
+      "net_eur": -0.902258,
+      "holding_s": 133.81137537956238,
+      "exit": "trailing reversal from observed peak"
     },
     {
       "symbol": "bill",
@@ -1298,20 +1320,6 @@
       "observation": "Negative modeled outcome",
       "net_eur": -0.628916,
       "holding_s": 66.2942898273468,
-      "exit": "trailing reversal from observed peak"
-    },
-    {
-      "symbol": "AURA",
-      "observation": "Costs consumed the gross edge",
-      "net_eur": -0.119584,
-      "holding_s": 64.63506364822388,
-      "exit": "Local AI: Liquidity peaked at 52,117.23 USD with no withdrawal from peak. Price "
-    },
-    {
-      "symbol": "bill",
-      "observation": "Negative modeled outcome",
-      "net_eur": -0.356381,
-      "holding_s": 13.50310730934143,
       "exit": "trailing reversal from observed peak"
     }
   ],
