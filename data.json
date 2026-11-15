@@ -1,6 +1,6 @@
 {
   "schema": "rugclaw-public-v1",
-  "generated_at": 1794771080.1389716,
+  "generated_at": 1794771990.1187186,
   "paper_only": true,
   "mode": "PAPER TRADING",
   "brand": {
@@ -12,7 +12,7 @@
     "tone": "offline",
     "engine_online": false,
     "market_data_fresh": false,
-    "updated_age_s": 6.2
+    "updated_age_s": 13.9
   },
   "account": {
     "starting_eur": 100.0,
@@ -50,7 +50,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 37914.18523001671,
+      "held_s": 38824.16497707367,
       "pump_fun_url": "https://pump.fun/coin/12DvTypJEtf1bST6uEUDfPm7jNMHFYx2GfibCXxQwBRX",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
@@ -74,7 +74,7 @@
       "value_eur": 0.0,
       "unrealised_eur": -20.0,
       "unrealised_pct": -100.0,
-      "held_s": 74704.40905356407,
+      "held_s": 75614.38880062103,
       "pump_fun_url": "https://pump.fun/coin/7LYC3PBzqF7dgg3Pyk2EwxszJSJzeorv9z24DMD2UWAW",
       "mark_status": "UNSALEABLE / zero conservative mark; route unverified",
       "exit_state": {
